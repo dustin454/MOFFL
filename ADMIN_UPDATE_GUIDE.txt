@@ -1,0 +1,64 @@
+MOFFL LEAGUE HQ — COMMISSIONER UPDATE GUIDE
+
+The public website now uses one editable file for live League HQ information:
+
+  assets/hq-data.js
+
+You can update the following without redesigning the site:
+- Draft date
+- Keeper deadline
+- Rule-proposal deadline
+- Time / location
+- Announcements
+- Official Google Form URL
+- Submission email address (optional)
+
+IMPORTANT DATES
+Find the "importantDates" section in assets/hq-data.js.
+Replace an empty date with your confirmed date, for example:
+
+  "date": "August 28, 2027",
+  "time": "6:00 PM",
+  "location": "TBD",
+  "status": "Confirmed"
+
+ANNOUNCEMENTS
+Find the "announcements" section.
+Add a new object using the same structure. Only announcements with:
+  "status": "Active"
+are shown on the homepage.
+
+RULE PROPOSAL GOOGLE FORM
+When you create the Google Form, publish it and copy its public URL.
+Then paste it here in assets/hq-data.js:
+
+  "officialFormUrl": "https://forms.gle/..."
+
+Once that value exists, the Rules page automatically shows an
+"Open Official Submission Form" button.
+
+OPTIONAL EMAIL HANDOFF
+If you want the "Open Email Draft" button to pre-address a commissioner
+or league email account, add that address to:
+
+  "submissionEmail": "league@email.com"
+
+If left blank, the email draft opens without a recipient.
+
+DATABASE
+The spreadsheet database contains corresponding editable tables:
+- Announcements
+- Important Dates
+- Rule Proposals
+
+Future workflow:
+Database / HQ data -> website display.
+
+LIVE GOVERNANCE FEED (v12)
+- Google Form feeds Form Responses 1.
+- Proposal Tracker is the commissioner/admin source of truth.
+- Website Feed contains only public-safe proposal fields and excludes Admin Notes.
+- Draft Agenda automatically shows rows with Status = Scheduled for Vote.
+- Legislative History automatically shows rows with Status = Adopted, Rejected, or Withdrawn.
+- The website reads Website Feed through Google Sheets' public visualization endpoint.
+- To activate public live updates, publish the Website Feed tab from Google Sheets: File > Share > Publish to web > select Website Feed > CSV (or the sheet) > Publish.

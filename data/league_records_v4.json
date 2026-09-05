@@ -1,0 +1,24 @@
+[
+  {
+    "Record_ID": "REC001",
+    "Category": "Regular Season Total Points",
+    "Record_Value": 1866.4,
+    "GM_ID": "GM006",
+    "GM_Name": "Dustin Corkery",
+    "Season": 2019,
+    "Record_Status": "Current",
+    "Source_Sheet": "Records",
+    "Notes": "Current source record"
+  },
+  {
+    "Record_ID": "REC002",
+    "Category": "Single Game Points",
+    "Record_Value": 214.4,
+    "GM_ID": "GM009",
+    "GM_Name": "Michael Basciano",
+    "Season": 2022,
+    "Record_Status": "Current",
+    "Source_Sheet": "Records",
+    "Notes": "Current source record"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "Season_ID": "S2005",
+    "Season": 2005,
+    "Champion_GM_ID": "GM004",
+    "Champion_GM_Name": "Sean Fetterman",
+    "Champion_Team_Name": "Dr.FedsFootballFools",
+    "Runner_Up_GM_ID": "GM006",
+    "Runner_Up_GM_Name": "Dustin Corkery",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2006",
+    "Season": 2006,
+    "Champion_GM_ID": "GM005",
+    "Champion_GM_Name": "Dave Lyons",
+    "Champion_Team_Name": "The franchyNASTY",
+    "Runner_Up_GM_ID": "GM004",
+    "Runner_Up_GM_Name": "Sean Fetterman",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2007",
+    "Season": 2007,
+    "Champion_GM_ID": "GM004",
+    "Champion_GM_Name": "Sean Fetterman",
+    "Champion_Team_Name": "down goes frazier",
+    "Runner_Up_GM_ID": "GM002",
+    "Runner_Up_GM_Name": "Sam Debonis",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2008",
+    "Season": 2008,
+    "Champion_GM_ID": "GM005",
+    "Champion_GM_Name": "Dave Lyons",
+    "Champion_Team_Name": "Fuzzbuster & D.J",
+    "Runner_Up_GM_ID": "GM001",
+    "Runner_Up_GM_Name": "Frank Martino",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2009",
+    "Season": 2009,
+    "Champion_GM_ID": "GM013",
+    "Champion_GM_Name": "Chris Basciano",
+    "Champion_Team_Name": "Smashmortion Clinic",
+    "Runner_Up_GM_ID": "GM002",
+    "Runner_Up_GM_Name": "Sam Debonis",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2010",
+    "Season": 2010,
+    "Champion_GM_ID": "GM013",
+    "Champion_GM_Name": "Chris Basciano",
+    "Champion_Team_Name": "Tiger's Wood",
+    "Runner_Up_GM_ID": "GM012",
+    "Runner_Up_GM_Name": "Pat Dowling",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2011",
+    "Season": 2011,
+    "Champion_GM_ID": "GM002",
+    "Champion_GM_Name": "Sam Debonis",
+    "Champion_Team_Name": "hi to your knees",
+    "Runner_Up_GM_ID": "GM005",
+    "Runner_Up_GM_Name": "Dave Lyons",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2013",
+    "Season": 2013,
+    "Champion_GM_ID": "GM007",
+    "Champion_GM_Name": "Matt Fuller",
+    "Champion_Team_Name": "Rohit Remesh's Team",
+    "Runner_Up_GM_ID": "GM008",
+    "Runner_Up_GM_Name": "Dan Gutman",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2014",
+    "Season": 2014,
+    "Champion_GM_ID": "GM001",
+    "Champion_GM_Name": "Frank Martino",
+    "Champion_Team_Name": "Roll Tide",
+    "Runner_Up_GM_ID": "GM009",
+    "Runner_Up_GM_Name": "Michael Basciano",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2015",
+    "Season": 2015,
+    "Champion_GM_ID": "GM001",
+    "Champion_GM_Name": "Frank Martino",
+    "Champion_Team_Name": "Roll Tide",
+    "Runner_Up_GM_ID": "GM012",
+    "Runner_Up_GM_Name": "Pat Dowling",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2016",
+    "Season": 2016,
+    "Champion_GM_ID": "GM003",
+    "Champion_GM_Name": "Andrew Casse",
+    "Champion_Team_Name": "Smelly Socks",
+    "Runner_Up_GM_ID": "GM007",
+    "Runner_Up_GM_Name": "Matt Fuller",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2017",
+    "Season": 2017,
+    "Champion_GM_ID": "GM004",
+    "Champion_GM_Name": "Sean Fetterman",
+    "Champion_Team_Name": "PROCESS COMPLETE",
+    "Runner_Up_GM_ID": "GM002",
+    "Runner_Up_GM_Name": "Sam Debonis",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2018",
+    "Season": 2018,
+    "Champion_GM_ID": "GM009",
+    "Champion_GM_Name": "Michael Basciano",
+    "Champion_Team_Name": "KerryonMyWaywardSon",
+    "Runner_Up_GM_ID": "GM011",
+    "Runner_Up_GM_Name": "Chris Polizois",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2019",
+    "Season": 2019,
+    "Champion_GM_ID": "GM001",
+    "Champion_GM_Name": "Frank Martino",
+    "Champion_Team_Name": "Roll Tide",
+    "Runner_Up_GM_ID": "GM006",
+    "Runner_Up_GM_Name": "Dustin Corkery",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2020",
+    "Season": 2020,
+    "Champion_GM_ID": "GM010",
+    "Champion_GM_Name": "Steve Nevola",
+    "Champion_Team_Name": "Just My Luck",
+    "Runner_Up_GM_ID": "GM011",
+    "Runner_Up_GM_Name": "Chris Polizois",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2021",
+    "Season": 2021,
+    "Champion_GM_ID": "GM012",
+    "Champion_GM_Name": "Pat Dowling",
+    "Champion_Team_Name": "Turf Toe",
+    "Runner_Up_GM_ID": "GM001",
+    "Runner_Up_GM_Name": "Frank Martino",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2022",
+    "Season": 2022,
+    "Champion_GM_ID": "GM008",
+    "Champion_GM_Name": "Dan Gutman",
+    "Champion_Team_Name": "He Got That JuJu!",
+    "Runner_Up_GM_ID": "GM011",
+    "Runner_Up_GM_Name": "Chris Polizois",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2023",
+    "Season": 2023,
+    "Champion_GM_ID": "GM001",
+    "Champion_GM_Name": "Frank Martino",
+    "Champion_Team_Name": "Roll Tide",
+    "Runner_Up_GM_ID": "GM006",
+    "Runner_Up_GM_Name": "Dustin Corkery",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2024",
+    "Season": 2024,
+    "Champion_GM_ID": "GM001",
+    "Champion_GM_Name": "Frank Martino",
+    "Champion_Team_Name": "Roll Tide",
+    "Runner_Up_GM_ID": "GM008",
+    "Runner_Up_GM_Name": "Dan Gutman",
+    "Source_Sheet": "Champions Final Roster By Year"
+  },
+  {
+    "Season_ID": "S2025",
+    "Season": 2025,
+    "Champion_GM_ID": "GM007",
+    "Champion_GM_Name": "Matt Fuller",
+    "Champion_Team_Name": "If you feel it Chase it",
+    "Runner_Up_GM_ID": "GM001",
+    "Runner_Up_GM_Name": "Frank Martino",
+    "Source_Sheet": "2025 Payouts"
+  }
+]

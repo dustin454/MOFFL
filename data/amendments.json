@@ -1,0 +1,29 @@
+[
+  {
+    "Amendment_ID": "AM001",
+    "Rule_ID": "R010",
+    "Title": "Keepers",
+    "Amendment_Text": "2020 AMENDMENT: Effective 2021, The Maximum number of players a GM can keep is 4.  This does not limit the GM to using 4 Different keeper slots (Example: Keeping a player in the first round, 1 player in the fourth round, and two players in the 16th Round)",
+    "Effective_Season": 2021,
+    "Status": "Adopted",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Amendment_ID": "AM002",
+    "Rule_ID": "R017",
+    "Title": "Don't Fuck Up Deposit",
+    "Amendment_Text": "Events should only be considered fuck-ups if there is a negative impact on one or more member(s) of the league \"Fucked Up\" Examples The following events are considered events of “Fucking up” -Starting an injured player -Starting a player on a bye -Not starting the best possible player for a particular position when there is a clear better option Example: Leaving a top rated player on your bench the week after a bye, leaving an RB3/4 in your lineup -Missing the Keeper Deadline and Requesting a 24 Hour Extension (2019 Amendment: The League vs. Christopher Polizois & Daniel Gutman) Fuckups incrementally increase by $5 per fuck up (Effective 2021)",
+    "Effective_Season": 2021,
+    "Status": "Adopted",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Amendment_ID": "AM003",
+    "Rule_ID": "R026",
+    "Title": "Divisions & Schedule",
+    "Amendment_Text": "Starting with the year 2020; Divisions will be changed for 3 to 2. The divisions will be re-aligned every 3 years and the two GM's with the best overall record, most points, best average finish over the course of those 3 years will Draft the other GM's into their respective Division in a Snake Draft Format. (1st Place gets 1st Pick, 2nd place gets 2nd & 3rd Pick, etc.)",
+    "Effective_Season": null,
+    "Status": "Adopted",
+    "Source_Sheet": "Rules"
+  }
+]

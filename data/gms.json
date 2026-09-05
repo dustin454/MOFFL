@@ -1,0 +1,145 @@
+[
+  {
+    "GM_ID": "GM001",
+    "Canonical_Name": "Frank Martino",
+    "Display_Name": "Frank Martino",
+    "Known_Aliases": "F. Martino",
+    "Status": "Current",
+    "First_Season": 2005,
+    "Last_Season": 2024,
+    "Identity_Confidence": "High",
+    "Notes": null
+  },
+  {
+    "GM_ID": "GM002",
+    "Canonical_Name": "Sam Debonis",
+    "Display_Name": "Sam Debonis",
+    "Known_Aliases": "Sammy; S. Debonis",
+    "Status": "Current",
+    "First_Season": 2005,
+    "Last_Season": 2024,
+    "Identity_Confidence": "High",
+    "Notes": null
+  },
+  {
+    "GM_ID": "GM003",
+    "Canonical_Name": "Andrew Casse",
+    "Display_Name": "Andrew Casse",
+    "Known_Aliases": null,
+    "Status": "Current",
+    "First_Season": 2005,
+    "Last_Season": 2024,
+    "Identity_Confidence": "High",
+    "Notes": null
+  },
+  {
+    "GM_ID": "GM004",
+    "Canonical_Name": "Sean Fetterman",
+    "Display_Name": "Sean Fetterman",
+    "Known_Aliases": "SEAN",
+    "Status": "Current",
+    "First_Season": 2005,
+    "Last_Season": 2024,
+    "Identity_Confidence": "High",
+    "Notes": null
+  },
+  {
+    "GM_ID": "GM005",
+    "Canonical_Name": "Dave Lyons",
+    "Display_Name": "Dave Lyons",
+    "Known_Aliases": null,
+    "Status": "Current",
+    "First_Season": 2005,
+    "Last_Season": 2024,
+    "Identity_Confidence": "High",
+    "Notes": null
+  },
+  {
+    "GM_ID": "GM006",
+    "Canonical_Name": "Dustin Corkery",
+    "Display_Name": "Dustin Corkery",
+    "Known_Aliases": "Dustin",
+    "Status": "Current",
+    "First_Season": 2005,
+    "Last_Season": 2024,
+    "Identity_Confidence": "High",
+    "Notes": null
+  },
+  {
+    "GM_ID": "GM007",
+    "Canonical_Name": "Matt Fuller",
+    "Display_Name": "Matt Fuller",
+    "Known_Aliases": "Fuller",
+    "Status": "Current",
+    "First_Season": 2008,
+    "Last_Season": 2024,
+    "Identity_Confidence": "High",
+    "Notes": null
+  },
+  {
+    "GM_ID": "GM008",
+    "Canonical_Name": "Dan Gutman",
+    "Display_Name": "Dan Gutman",
+    "Known_Aliases": "Gutman",
+    "Status": "Current",
+    "First_Season": 2005,
+    "Last_Season": 2024,
+    "Identity_Confidence": "High",
+    "Notes": null
+  },
+  {
+    "GM_ID": "GM009",
+    "Canonical_Name": "Michael Basciano",
+    "Display_Name": "Mike Basciano",
+    "Known_Aliases": "Mike Basciano",
+    "Status": "Current",
+    "First_Season": 2005,
+    "Last_Season": 2023,
+    "Identity_Confidence": "High",
+    "Notes": null
+  },
+  {
+    "GM_ID": "GM010",
+    "Canonical_Name": "Steve Nevola",
+    "Display_Name": "Steve Nevola",
+    "Known_Aliases": null,
+    "Status": "Current",
+    "First_Season": 2017,
+    "Last_Season": 2024,
+    "Identity_Confidence": "High",
+    "Notes": null
+  },
+  {
+    "GM_ID": "GM011",
+    "Canonical_Name": "Chris Polizois",
+    "Display_Name": "Chris Polizois",
+    "Known_Aliases": null,
+    "Status": "Current",
+    "First_Season": 2005,
+    "Last_Season": 2024,
+    "Identity_Confidence": "High",
+    "Notes": null
+  },
+  {
+    "GM_ID": "GM012",
+    "Canonical_Name": "Pat Dowling",
+    "Display_Name": "Pat Dowling",
+    "Known_Aliases": null,
+    "Status": "Current",
+    "First_Season": 2005,
+    "Last_Season": 2024,
+    "Identity_Confidence": "High",
+    "Notes": null
+  },
+  {
+    "GM_ID": "GM013",
+    "Canonical_Name": "Chris Basciano",
+    "Display_Name": "Chris Basciano",
+    "Known_Aliases": "Chris Bash",
+    "Status": "Current",
+    "First_Season": 2006,
+    "Last_Season": 2024,
+    "Identity_Confidence": "Medium - verify alias",
+    "Notes": null
+  }
+]

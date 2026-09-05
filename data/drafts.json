@@ -1,0 +1,101 @@
+[
+  {
+    "Draft_ID": "D2016",
+    "Season_ID": "S2016",
+    "Season": 2016,
+    "Board_Columns": 10,
+    "Rounds": 17,
+    "Source_Description": "Draft & Keepers source board",
+    "Source_Sheet": "2016 Draft & Keepers"
+  },
+  {
+    "Draft_ID": "D2017",
+    "Season_ID": "S2017",
+    "Season": 2017,
+    "Board_Columns": 12,
+    "Rounds": 17,
+    "Source_Description": "Draft & Keepers source board",
+    "Source_Sheet": "2017 Draft & Keepers"
+  },
+  {
+    "Draft_ID": "D2018",
+    "Season_ID": "S2018",
+    "Season": 2018,
+    "Board_Columns": 12,
+    "Rounds": 18,
+    "Source_Description": "Draft & Keepers source board",
+    "Source_Sheet": "2018 Draft & Keepers"
+  },
+  {
+    "Draft_ID": "D2019",
+    "Season_ID": "S2019",
+    "Season": 2019,
+    "Board_Columns": 12,
+    "Rounds": 18,
+    "Source_Description": "Draft & Keepers source board",
+    "Source_Sheet": "2019 Draft & Keepers"
+  },
+  {
+    "Draft_ID": "D2020",
+    "Season_ID": "S2020",
+    "Season": 2020,
+    "Board_Columns": 12,
+    "Rounds": 18,
+    "Source_Description": "Draft & Keepers source board",
+    "Source_Sheet": "2020 Draft & Keepers"
+  },
+  {
+    "Draft_ID": "D2021",
+    "Season_ID": "S2021",
+    "Season": 2021,
+    "Board_Columns": 12,
+    "Rounds": 18,
+    "Source_Description": "Draft & Keepers source board",
+    "Source_Sheet": "2021 Draft & Keepers"
+  },
+  {
+    "Draft_ID": "D2022",
+    "Season_ID": "S2022",
+    "Season": 2022,
+    "Board_Columns": 12,
+    "Rounds": 18,
+    "Source_Description": "Draft & Keepers source board",
+    "Source_Sheet": "2022 Draft & Keepers"
+  },
+  {
+    "Draft_ID": "D2023",
+    "Season_ID": "S2023",
+    "Season": 2023,
+    "Board_Columns": 12,
+    "Rounds": 18,
+    "Source_Description": "Draft & Keepers source board",
+    "Source_Sheet": "2023 Draft & Keepers"
+  },
+  {
+    "Draft_ID": "D2024",
+    "Season_ID": "S2024",
+    "Season": 2024,
+    "Board_Columns": 12,
+    "Rounds": 18,
+    "Source_Description": "Draft & Keepers source board",
+    "Source_Sheet": "2024 Draft & Keepers"
+  },
+  {
+    "Draft_ID": "D2025",
+    "Season_ID": "S2025",
+    "Season": 2025,
+    "Board_Columns": 12,
+    "Rounds": 17,
+    "Source_Description": "Draft & Keepers source board",
+    "Source_Sheet": "2025 Draft & Keepers"
+  },
+  {
+    "Draft_ID": "D2026",
+    "Season_ID": "S2026",
+    "Season": 2026,
+    "Board_Columns": 12,
+    "Rounds": 17,
+    "Source_Description": "Draft & Keepers source board",
+    "Source_Sheet": "2026 Draft & Keepers"
+  }
+]

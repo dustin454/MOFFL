@@ -1,0 +1,272 @@
+[
+  {
+    "Rule_ID": "R001",
+    "Section": "Keepers",
+    "Rule_Title": "The league's keeper rules are based on a 4 tier layout…",
+    "Rule_Text": "The league's keeper rules are based on a 4 tier layout.  A GM may keep players from their final roster of the previous year in the 4 designated keeper rounds.",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 21,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R002",
+    "Section": "Keepers",
+    "Rule_Title": "Keeper Rounds",
+    "Rule_Text": "Keeper Rounds: 1, 4, 9, & 16",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 22,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R003",
+    "Section": "Keepers",
+    "Rule_Title": "Eligibility",
+    "Rule_Text": "Eligibility:",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 23,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R004",
+    "Section": "Keepers",
+    "Rule_Title": "Keeper Round 1",
+    "Rule_Text": "Keeper Round 1: Players drafted in rounds 1-3 in the previous season will be eligible to be kept in the 1st Round of the following season",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 24,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R005",
+    "Section": "Keepers",
+    "Rule_Title": "Keeper Round 4",
+    "Rule_Text": "Keeper Round 4: Players drafted in rounds 4-8 in the previous season will be eligible to be kept in the 4th Round of the following season",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 25,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R006",
+    "Section": "Keepers",
+    "Rule_Title": "Keeper Round 9",
+    "Rule_Text": "Keeper Round 9: Players drafted in or after the 9th round in the previous season will be eligible to be kept in the 9th Round of the following season",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 26,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R007",
+    "Section": "Keepers",
+    "Rule_Title": "Keeper Round 16",
+    "Rule_Text": "Keeper Round 16: Players that were undrafted and picked up through waivers will be eligible to be kept in the 16th round of the following season",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 27,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R008",
+    "Section": "Keepers",
+    "Rule_Title": "Keeping players for multiple years",
+    "Rule_Text": "Keeping players for multiple years:  a player can be kept for a maximum of 4 years; if a GM elects to keep a player that was kept in the preceding year, that keepers eligibility will move down to the next tier Example: If a player was kept in the 9th round last year, the eligibility of that keeper will be moved down a tier and can be kept in the 4th round of the current draft year If a player was kept in the 1st Round of the previous years draft, that player will lose their keeper eligibility and will automatically be entered into the pool of free agents to be drafted",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": "29,30,31,32",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R009",
+    "Section": "Keepers",
+    "Rule_Title": "Maximum # of Keepers",
+    "Rule_Text": "Maximum # of Keepers:  A GM can keep as many players as they want, as long as they are kept in the eligible keeper rounds.  Therefore, a GM can trade draft picks and obtain additional picks in the keeper rounds enabling them to keep more than one player in the same round",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": "34,35",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R010",
+    "Section": "Keepers",
+    "Rule_Title": "2020 AMENDMENT",
+    "Rule_Text": "2020 AMENDMENT: Effective 2021, The Maximum number of players a GM can keep is 4.  This does not limit the GM to using 4 Different keeper slots (Example: Keeping a player in the first round, 1 player in the fourth round, and two players in the 16th Round)",
+    "Effective_Season": 2021,
+    "Status": "Active",
+    "Source_Rows": "36,37",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R011",
+    "Section": "Keepers",
+    "Rule_Title": "Keeper Due Dates & Extensions",
+    "Rule_Text": "Keeper Due Dates & Extensions: The Keeper due date will be announced at the same time the draft date will be announced. Typically, the keeper deadline will be one week before the draft date to ensure each GM has the time to prepare for the draft.  If the keeper deadline is missed, a GM can request a 24 Hour Extension; however, a $10 fine will be imposed (taken from the GM's \"DFU Deposit\")",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": "39,40,41",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R012",
+    "Section": "Waivers",
+    "Rule_Title": "Each team will receive $100 budget for the regular seas…",
+    "Rule_Text": "Each team will receive $100 budget for the regular season for blind bidding on the waiver wire.",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 44,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R013",
+    "Section": "Waivers",
+    "Rule_Title": "Teams are able to add \"waiver funds\" as part of a trade…",
+    "Rule_Text": "Teams are able to add \"waiver funds\" as part of a trade package.",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 45,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R014",
+    "Section": "Waivers",
+    "Rule_Title": "Once draft results are submitted, all I drafted players…",
+    "Rule_Text": "Once draft results are submitted, all I drafted players will be locked and a waiver date will be set. Each team will receive $100 in pre-season funds. Pre-Season Waiver Budgets will reset to $0.00 once the initial waiver date passes and then each time will be set back to their initial $100 regular season budget (If you don't use it you lose it)",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": "46,47",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R015",
+    "Section": "Don't Fuck Up Deposit",
+    "Rule_Title": "Each year, General Managers of the league will pay $10…",
+    "Rule_Text": "Each year, General Managers of the league will pay $10.00 in addition to their initial \"buy-in\" for that year to be used as a \"Don't Fuck Up\" deposit. This $10.00 will be held until the end of the regular season and returned back to the GM if said GM does not incur any instances of \"Fucking Up\" If a GM \"Fucks Up\", their deposit will not be returned and will be transferred to the league's Misc. Cash.",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": "53,54,55",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R016",
+    "Section": "Don't Fuck Up Deposit",
+    "Rule_Title": "Fucking up is subjective and at the discretion of the l…",
+    "Rule_Text": "Fucking up is subjective and at the discretion of the league requiring a majority vote or 6/11 votes. (Note: the GM that fucked up will not participate in the vote)",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 56,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R017",
+    "Section": "Don't Fuck Up Deposit",
+    "Rule_Title": "Events should only be considered fuck-ups if there is a…",
+    "Rule_Text": "Events should only be considered fuck-ups if there is a negative impact on one or more member(s) of the league \"Fucked Up\" Examples The following events are considered events of “Fucking up” -Starting an injured player -Starting a player on a bye -Not starting the best possible player for a particular position when there is a clear better option Example: Leaving a top rated player on your bench the week after a bye, leaving an RB3/4 in your lineup -Missing the Keeper Deadline and Requesting a 24 Hour Extension (2019 Amendment: The League vs. Christopher Polizois & Daniel Gutman) Fuckups incrementally increase by $5 per fuck up (Effective 2021)",
+    "Effective_Season": 2021,
+    "Status": "Active",
+    "Source_Rows": "57,59,60,61,62,63,64,65,68",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R018",
+    "Section": "Board of Trustees",
+    "Rule_Title": "Should a controversial situation arise during the regul…",
+    "Rule_Text": "Should a controversial situation arise during the regular season and a solution to said situation is not specifically stated in the rules, a decision must be made by the board of trustees.",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 72,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R019",
+    "Section": "Board of Trustees",
+    "Rule_Title": "There will be a total of 3 members in the Board of Trus…",
+    "Rule_Text": "There will be a total of 3 members in the Board of Trustees",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 74,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R020",
+    "Section": "Board of Trustees",
+    "Rule_Title": "A vote will occur every 3 years to decide the members",
+    "Rule_Text": "A vote will occur every 3 years to decide the members",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 75,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R021",
+    "Section": "Board of Trustees",
+    "Rule_Title": "League members must be nominated and require 3 addition…",
+    "Rule_Text": "League members must be nominated and require 3 additional votes after nomination to be inducted",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 76,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R022",
+    "Section": "Board of Trustees",
+    "Rule_Title": "Members cannot serve more than 2 consecutive terms (6 y…",
+    "Rule_Text": "Members cannot serve more than 2 consecutive terms (6 years)",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": 77,
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R023",
+    "Section": "Board of Trustees",
+    "Rule_Title": "Members on their 1st term are automatically nominated f…",
+    "Rule_Text": "Members on their 1st term are automatically nominated for their 2nd term.  If members are at the end of their 1st term and noone else is nominated; there will be no vote and the members of board will automatically be re-elected to a 2nd term.",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": "78,79",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R024",
+    "Section": "Board of Trustees",
+    "Rule_Title": "The board of trustees will NOT be used If",
+    "Rule_Text": "The board of trustees will NOT be used If: Voting for overall changes to the league or rules; these situations require a majority or unanimous vote Voting for DFU Deposit disputes",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": "80,81,82",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R025",
+    "Section": "Board of Trustees",
+    "Rule_Title": "Example of Utilizing Board of Trustees",
+    "Rule_Text": "Example of Utilizing Board of Trustees: a member of the league was having trouble setting their line-up, games started 1-2 min ago and line-ups are locked. Requesting comissioner to step in and set the line-up",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": "92,93",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R026",
+    "Section": "Divisions & Schedule",
+    "Rule_Title": "Starting with the year 2020; Divisions will be changed…",
+    "Rule_Text": "Starting with the year 2020; Divisions will be changed for 3 to 2. The divisions will be re-aligned every 3 years and the two GM's with the best overall record, most points, best average finish over the course of those 3 years will Draft the other GM's into their respective Division in a Snake Draft Format. (1st Place gets 1st Pick, 2nd place gets 2nd & 3rd Pick, etc.)",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": "98,99",
+    "Source_Sheet": "Rules"
+  },
+  {
+    "Rule_ID": "R027",
+    "Section": "Divisions & Schedule",
+    "Rule_Title": "Schedule",
+    "Rule_Text": "Schedule: Each team will play each other twice and the 2 teams form their division once. Over the course of 3 years you will have played Every team in the opposing conference 3 times, 1 team in your conference 7 times, Everyone else in your conference 6 times",
+    "Effective_Season": null,
+    "Status": "Active",
+    "Source_Rows": "101,102,103,104",
+    "Source_Sheet": "Rules"
+  }
+]

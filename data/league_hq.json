@@ -1,0 +1,115 @@
+{
+  "currentSeason": 2027,
+  "defendingChampion": {
+    "season": 2025,
+    "gm": "Matt Fuller",
+    "team": "If you feel it Chase it"
+  },
+  "importantDates": [
+    {
+      "id": "DATE001",
+      "type": "Draft",
+      "title": "2027 MOFFL Draft",
+      "date": "",
+      "time": "",
+      "location": "",
+      "status": "TBD",
+      "priority": "High",
+      "note": "Date, time and location will appear here once finalized."
+    },
+    {
+      "id": "DATE002",
+      "type": "Keeper Deadline",
+      "title": "2027 Keeper Deadline",
+      "date": "",
+      "time": "",
+      "location": "",
+      "status": "TBD",
+      "priority": "High",
+      "note": "Exact deadline will be set after the draft date is confirmed."
+    },
+    {
+      "id": "DATE003",
+      "type": "Rule Proposal Deadline",
+      "title": "2027 Rule Proposal Deadline",
+      "date": "",
+      "time": "",
+      "location": "",
+      "status": "TBD",
+      "priority": "High",
+      "note": "Deadline for proposals to be placed on the next draft agenda."
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ANN001",
+      "title": "Rule Proposals Are Open",
+      "category": "Governance",
+      "priority": "High",
+      "status": "Active",
+      "body": "GMs can now prepare proposed rule changes for discussion at the next season's draft using the proposal portal on the Constitution page."
+    },
+    {
+      "id": "ANN002",
+      "title": "2027 Offseason Planning",
+      "category": "League",
+      "priority": "Normal",
+      "status": "Active",
+      "body": "The 2027 draft date, keeper deadline, and rule-proposal deadline will be posted here once finalized."
+    }
+  ],
+  "ruleProposal": {
+    "officialFormUrl": "",
+    "submissionEmail": ""
+  },
+  "currentGMs": [
+    {
+      "GM_ID": "GM001",
+      "Name": "Frank Martino"
+    },
+    {
+      "GM_ID": "GM002",
+      "Name": "Sam Debonis"
+    },
+    {
+      "GM_ID": "GM003",
+      "Name": "Andrew Casse"
+    },
+    {
+      "GM_ID": "GM004",
+      "Name": "Sean Fetterman"
+    },
+    {
+      "GM_ID": "GM005",
+      "Name": "Dave Lyons"
+    },
+    {
+      "GM_ID": "GM006",
+      "Name": "Dustin Corkery"
+    },
+    {
+      "GM_ID": "GM007",
+      "Name": "Matt Fuller"
+    },
+    {
+      "GM_ID": "GM008",
+      "Name": "Dan Gutman"
+    },
+    {
+      "GM_ID": "GM010",
+      "Name": "Steve Nevola"
+    },
+    {
+      "GM_ID": "GM011",
+      "Name": "Chris Polizois"
+    },
+    {
+      "GM_ID": "GM012",
+      "Name": "Pat Dowling"
+    },
+    {
+      "GM_ID": "GM013",
+      "Name": "Chris Basciano"
+    }
+  ]
+}

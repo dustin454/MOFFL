@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>MOFFL • Constitution & Rule Proposals</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="topbar"><div class="shell nav"><a class="brand" href="index.html">MO<span>FFL</span></a><div class="navlinks"><a href="history.html">History</a><a href="gms.html">GM Hub</a><a href="records.html">Records</a><a href="legacy.html">Legacy</a><a href="hall-of-fame.html">Hall of Fame</a><a href="drafts.html">Drafts</a><a href="financials.html">Financials</a><a href="rules.html">Constitution</a></div></div></div>
+<main class="shell">
+  <div class="pagehead">
+    <div class="eyebrow">Governance</div>
+    <h1>MOFFL Constitution</h1>
+    <p style="color:var(--muted);max-width:760px">League rules, amendment history, and the place for GMs to propose changes for discussion at the next season's draft.</p>
+  </div>
+
+  <section id="proposal" class="section" style="padding-top:8px">
+  <div class="sectionhead"><div><div class="eyebrow">League Governance</div><h2>Propose a Rule Change</h2></div><span class="pill">2027 Proposals Open</span></div>
+  <div class="grid two">
+    <div class="card"><div class="eyebrow">Official Submission Portal</div><h3>Submit a proposal</h3><p>Use the official MOFFL Rule Change Proposal Form. Each submission is logged in the league's Google Sheet for commissioner review and future voting.</p><p><strong>Submitting a proposal does not adopt the rule.</strong> It simply places the proposal into the league review process.</p><a class="button primary" href="https://forms.gle/7qz33LXtwgsvDMXY9" target="_blank" rel="noopener">Submit a Rule Change →</a></div>
+    <div class="card"><div class="eyebrow">How it works</div><h3>Proposal Workflow</h3><p><strong>1.</strong> GM submits the Google Form.</p><p><strong>2.</strong> Submission is logged in the official proposal ledger.</p><p><strong>3.</strong> Commissioner updates status, voting, and decision fields.</p><p><strong>4.</strong> Proposals selected for discussion appear on the league agenda.</p><p><strong>5.</strong> Final decisions become part of MOFFL rule history.</p></div>
+  </div>
+</section>
+
+<section class="section" id="proposal-tracker">
+  <div class="sectionhead">
+    <div><div class="eyebrow">League Governance</div><h2>Open Proposals</h2></div>
+    <span class="pill">Live from Google Sheets</span>
+  </div>
+  <div id="moffl-open-proposals" class="grid"></div>
+  <div id="moffl-open-empty" class="card"><p>No public proposals are currently open.</p></div>
+</section>
+
+<section class="section" id="draft-agenda">
+  <div class="sectionhead">
+    <div><div class="eyebrow">2027 Draft</div><h2>Rule Vote Agenda</h2></div>
+    <span class="pill">Scheduled for Vote</span>
+  </div>
+  <div id="moffl-agenda" class="grid"></div>
+  <div id="moffl-agenda-empty" class="card"><p>No rule proposals are currently scheduled for a vote.</p></div>
+</section>
+
+<section class="section" id="legislative-history">
+  <div class="sectionhead">
+    <div><div class="eyebrow">MOFFL Constitution</div><h2>Legislative History</h2></div>
+    <span class="pill">Permanent Archive</span>
+  </div>
+  <div id="moffl-history" class="grid"></div>
+  <div id="moffl-history-empty" class="card"><p>No completed rule proposals have been recorded yet.</p></div>
+</section>
+
+<script>
+(function() {
+  const FEED_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRWKSlKDmLw3z7Z_0PRcqV7IqGXXDgrsyAzWRELJ0m7tic5Y_xLMAdpOrtE_rKLKcjOYxq1vz6BXMBD/pub?gid=1008832843&single=true&output=csv";
+  function parseCSV(text) {
+    const rows=[]; let row=[], cell='', quoted=false;
+    for (let i=0;i<text.length;i++) {
+      const c=text[i], n=text[i+1];
+      if (c === '"') {
+        if (quoted && n === '"') { cell += '"'; i++; } else quoted=!quoted;
+      } else if (c === ',' && !quoted) {
+        row.push(cell); cell='';
+      } else if ((c === '\n' || c === '\r') && !quoted) {
+        if (c === '\r' && n === '\n') i++;
+        row.push(cell); cell='';
+        if (row.some(v => v !== '')) rows.push(row);
+        row=[];
+      } else cell += c;
+    }
+    row.push(cell);
+    if (row.some(v => v !== '')) rows.push(row);
+    return rows;
+  }
+  function esc(s) {
+    return String(s ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  }
+  function card(p, history=false) {
+    const vote = (p["Votes For"] || p["Votes Against"]) ? `<div class="meta"><strong>Vote:</strong> ${esc(p["Votes For"]||"0")} for / ${esc(p["Votes Against"]||"0")} against</div>` : "";
+    const deadline = p["Vote Deadline"] ? `<div class="meta"><strong>Vote Deadline:</strong> ${esc(p["Vote Deadline"])}</div>` : "";
+    const decision = history && p["Decision"] ? `<div class="meta"><strong>Decision:</strong> ${esc(p["Decision"])}</div>` : "";
+    const effective = history && p["Effective Season"] ? `<div class="meta"><strong>Effective Season:</strong> ${esc(p["Effective Season"])}</div>` : "";
+    return `<article class="card">
+      <div class="eyebrow">${esc(p["Proposal ID"])} · ${esc(p["Category"])}</div>
+      <h3>${esc(p["Proposed Rule Change"] || "Rule Proposal")}</h3>
+      <p><strong>Submitted by:</strong> ${esc(p["Submitting GM"])}</p>
+      <p><strong>Current rule / issue:</strong> ${esc(p["Current Rule / Issue"])}</p>
+      <p><strong>Rationale:</strong> ${esc(p["Rationale"])}</p>
+      <div class="meta"><strong>Status:</strong> ${esc(p["Status"])}</div>
+      ${deadline}${vote}${decision}${effective}
+    </article>`;
+  }
+  fetch(FEED_URL, {cache:"no-store"})
+    .then(res => { if (!res.ok) throw new Error("Feed unavailable"); return res.text(); })
+    .then(text => {
+      const rows=parseCSV(text);
+      if (!rows.length) return;
+      const headers=rows[0];
+      const proposals=rows.slice(1).filter(r=>r.some(Boolean)).map(r=>{
+        const o={}; headers.forEach((h,i)=>o[h.trim()] = (r[i]||'').trim()); return o;
+      });
+      const completed=new Set(["Adopted","Rejected","Withdrawn"]);
+      const agenda=proposals.filter(p=>p["Status"]==="Scheduled for Vote");
+      const history=proposals.filter(p=>completed.has(p["Status"]));
+      const open=proposals.filter(p=>!completed.has(p["Status"]) && p["Status"]!=="Scheduled for Vote");
+      [
+        ["moffl-open-proposals","moffl-open-empty",open,false],
+        ["moffl-agenda","moffl-agenda-empty",agenda,false],
+        ["moffl-history","moffl-history-empty",history,true]
+      ].forEach(([id,eid,list,hist])=>{
+        const el=document.getElementById(id), empty=document.getElementById(eid);
+        if (!el || !empty) return;
+        if (list.length) { el.innerHTML=list.map(p=>card(p,hist)).join(""); empty.style.display="none"; }
+        else { el.innerHTML=""; empty.style.display=""; }
+      });
+    })
+    .catch(err => console.warn("MOFFL governance feed:", err));
+})();
+</script>
+
+
+  <section class="section">
+    <div class="sectionhead">
+      <div>
+        <div class="eyebrow">Current constitution</div>
+        <h2>League Rules</h2>
+      </div>
+    </div>
+    <div class="filters">
+      <select id="ruleFilter"><option value="">All sections</option><option value="Keepers">Keepers</option><option value="Waivers">Waivers</option><option value="Don&#x27;t Fuck Up Deposit">Don&#x27;t Fuck Up Deposit</option><option value="Board of Trustees">Board of Trustees</option><option value="Divisions &amp; Schedule">Divisions &amp; Schedule</option></select>
+    </div>
+    <div id="ruleList"><div class="card rule ruleitem" data-section="Keepers">
+      <div class="meta">Keepers</div>
+      <h3>The league&#x27;s keeper rules are based on a 4 tier layout…</h3>
+      <p>The league&#x27;s keeper rules are based on a 4 tier layout.  A GM may keep players from their final roster of the previous year in the 4 designated keeper rounds.</p>
+    </div><div class="card rule ruleitem" data-section="Keepers">
+      <div class="meta">Keepers</div>
+      <h3>Keeper Rounds</h3>
+      <p>Keeper Rounds: 1, 4, 9, &amp; 16</p>
+    </div><div class="card rule ruleitem" data-section="Keepers">
+      <div class="meta">Keepers</div>
+      <h3>Eligibility</h3>
+      <p>Eligibility:</p>
+    </div><div class="card rule ruleitem" data-section="Keepers">
+      <div class="meta">Keepers</div>
+      <h3>Keeper Round 1</h3>
+      <p>Keeper Round 1: Players drafted in rounds 1-3 in the previous season will be eligible to be kept in the 1st Round of the following season</p>
+    </div><div class="card rule ruleitem" data-section="Keepers">
+      <div class="meta">Keepers</div>
+      <h3>Keeper Round 4</h3>
+      <p>Keeper Round 4: Players drafted in rounds 4-8 in the previous season will be eligible to be kept in the 4th Round of the following season</p>
+    </div><div class="card rule ruleitem" data-section="Keepers">
+      <div class="meta">Keepers</div>
+      <h3>Keeper Round 9</h3>
+      <p>Keeper Round 9: Players drafted in or after the 9th round in the previous season will be eligible to be kept in the 9th Round of the following season</p>
+    </div><div class="card rule ruleitem" data-section="Keepers">
+      <div class="meta">Keepers</div>
+      <h3>Keeper Round 16</h3>
+      <p>Keeper Round 16: Players that were undrafted and picked up through waivers will be eligible to be kept in the 16th round of the following season</p>
+    </div><div class="card rule ruleitem" data-section="Keepers">
+      <div class="meta">Keepers</div>
+      <h3>Keeping players for multiple years</h3>
+      <p>Keeping players for multiple years:  a player can be kept for a maximum of 4 years; if a GM elects to keep a player that was kept in the preceding year, that keepers eligibility will move down to the next tier Example: If a player was kept in the 9th round last year, the eligibility of that keeper will be moved down a tier and can be kept in the 4th round of the current draft year If a player was kept in the 1st Round of the previous years draft, that player will lose their keeper eligibility and will automatically be entered into the pool of free agents to be drafted</p>
+    </div><div class="card rule ruleitem" data-section="Keepers">
+      <div class="meta">Keepers</div>
+      <h3>Maximum # of Keepers</h3>
+      <p>Maximum # of Keepers:  A GM can keep as many players as they want, as long as they are kept in the eligible keeper rounds.  Therefore, a GM can trade draft picks and obtain additional picks in the keeper rounds enabling them to keep more than one player in the same round</p>
+    </div><div class="card rule ruleitem" data-section="Keepers">
+      <div class="meta">Keepers • Effective 2021</div>
+      <h3>2020 AMENDMENT</h3>
+      <p>2020 AMENDMENT: Effective 2021, The Maximum number of players a GM can keep is 4.  This does not limit the GM to using 4 Different keeper slots (Example: Keeping a player in the first round, 1 player in the fourth round, and two players in the 16th Round)</p>
+    </div><div class="card rule ruleitem" data-section="Keepers">
+      <div class="meta">Keepers</div>
+      <h3>Keeper Due Dates &amp; Extensions</h3>
+      <p>Keeper Due Dates &amp; Extensions: The Keeper due date will be announced at the same time the draft date will be announced. Typically, the keeper deadline will be one week before the draft date to ensure each GM has the time to prepare for the draft.  If the keeper deadline is missed, a GM can request a 24 Hour Extension; however, a $10 fine will be imposed (taken from the GM&#x27;s &quot;DFU Deposit&quot;)</p>
+    </div><div class="card rule ruleitem" data-section="Waivers">
+      <div class="meta">Waivers</div>
+      <h3>Each team will receive $100 budget for the regular seas…</h3>
+      <p>Each team will receive $100 budget for the regular season for blind bidding on the waiver wire.</p>
+    </div><div class="card rule ruleitem" data-section="Waivers">
+      <div class="meta">Waivers</div>
+      <h3>Teams are able to add &quot;waiver funds&quot; as part of a trade…</h3>
+      <p>Teams are able to add &quot;waiver funds&quot; as part of a trade package.</p>
+    </div><div class="card rule ruleitem" data-section="Waivers">
+      <div class="meta">Waivers</div>
+      <h3>Once draft results are submitted, all I drafted players…</h3>
+      <p>Once draft results are submitted, all I drafted players will be locked and a waiver date will be set. Each team will receive $100 in pre-season funds. Pre-Season Waiver Budgets will reset to $0.00 once the initial waiver date passes and then each time will be set back to their initial $100 regular season budget (If you don&#x27;t use it you lose it)</p>
+    </div><div class="card rule ruleitem" data-section="Don&#x27;t Fuck Up Deposit">
+      <div class="meta">Don&#x27;t Fuck Up Deposit</div>
+      <h3>Each year, General Managers of the league will pay $10…</h3>
+      <p>Each year, General Managers of the league will pay $10.00 in addition to their initial &quot;buy-in&quot; for that year to be used as a &quot;Don&#x27;t Fuck Up&quot; deposit. This $10.00 will be held until the end of the regular season and returned back to the GM if said GM does not incur any instances of &quot;Fucking Up&quot; If a GM &quot;Fucks Up&quot;, their deposit will not be returned and will be transferred to the league&#x27;s Misc. Cash.</p>
+    </div><div class="card rule ruleitem" data-section="Don&#x27;t Fuck Up Deposit">
+      <div class="meta">Don&#x27;t Fuck Up Deposit</div>
+      <h3>Fucking up is subjective and at the discretion of the l…</h3>
+      <p>Fucking up is subjective and at the discretion of the league requiring a majority vote or 6/11 votes. (Note: the GM that fucked up will not participate in the vote)</p>
+    </div><div class="card rule ruleitem" data-section="Don&#x27;t Fuck Up Deposit">
+      <div class="meta">Don&#x27;t Fuck Up Deposit • Effective 2021</div>
+      <h3>Events should only be considered fuck-ups if there is a…</h3>
+      <p>Events should only be considered fuck-ups if there is a negative impact on one or more member(s) of the league &quot;Fucked Up&quot; Examples The following events are considered events of “Fucking up” -Starting an injured player -Starting a player on a bye -Not starting the best possible player for a particular position when there is a clear better option Example: Leaving a top rated player on your bench the week after a bye, leaving an RB3/4 in your lineup -Missing the Keeper Deadline and Requesting a 24 Hour Extension (2019 Amendment: The League vs. Christopher Polizois &amp; Daniel Gutman) Fuckups incrementally increase by $5 per fuck up (Effective 2021)</p>
+    </div><div class="card rule ruleitem" data-section="Board of Trustees">
+      <div class="meta">Board of Trustees</div>
+      <h3>Should a controversial situation arise during the regul…</h3>
+      <p>Should a controversial situation arise during the regular season and a solution to said situation is not specifically stated in the rules, a decision must be made by the board of trustees.</p>
+    </div><div class="card rule ruleitem" data-section="Board of Trustees">
+      <div class="meta">Board of Trustees</div>
+      <h3>There will be a total of 3 members in the Board of Trus…</h3>
+      <p>There will be a total of 3 members in the Board of Trustees</p>
+    </div><div class="card rule ruleitem" data-section="Board of Trustees">
+      <div class="meta">Board of Trustees</div>
+      <h3>A vote will occur every 3 years to decide the members</h3>
+      <p>A vote will occur every 3 years to decide the members</p>
+    </div><div class="card rule ruleitem" data-section="Board of Trustees">
+      <div class="meta">Board of Trustees</div>
+      <h3>League members must be nominated and require 3 addition…</h3>
+      <p>League members must be nominated and require 3 additional votes after nomination to be inducted</p>
+    </div><div class="card rule ruleitem" data-section="Board of Trustees">
+      <div class="meta">Board of Trustees</div>
+      <h3>Members cannot serve more than 2 consecutive terms (6 y…</h3>
+      <p>Members cannot serve more than 2 consecutive terms (6 years)</p>
+    </div><div class="card rule ruleitem" data-section="Board of Trustees">
+      <div class="meta">Board of Trustees</div>
+      <h3>Members on their 1st term are automatically nominated f…</h3>
+      <p>Members on their 1st term are automatically nominated for their 2nd term.  If members are at the end of their 1st term and noone else is nominated; there will be no vote and the members of board will automatically be re-elected to a 2nd term.</p>
+    </div><div class="card rule ruleitem" data-section="Board of Trustees">
+      <div class="meta">Board of Trustees</div>
+      <h3>The board of trustees will NOT be used If</h3>
+      <p>The board of trustees will NOT be used If: Voting for overall changes to the league or rules; these situations require a majority or unanimous vote Voting for DFU Deposit disputes</p>
+    </div><div class="card rule ruleitem" data-section="Board of Trustees">
+      <div class="meta">Board of Trustees</div>
+      <h3>Example of Utilizing Board of Trustees</h3>
+      <p>Example of Utilizing Board of Trustees: a member of the league was having trouble setting their line-up, games started 1-2 min ago and line-ups are locked. Requesting comissioner to step in and set the line-up</p>
+    </div><div class="card rule ruleitem" data-section="Divisions &amp; Schedule">
+      <div class="meta">Divisions &amp; Schedule</div>
+      <h3>Starting with the year 2020; Divisions will be changed…</h3>
+      <p>Starting with the year 2020; Divisions will be changed for 3 to 2. The divisions will be re-aligned every 3 years and the two GM&#x27;s with the best overall record, most points, best average finish over the course of those 3 years will Draft the other GM&#x27;s into their respective Division in a Snake Draft Format. (1st Place gets 1st Pick, 2nd place gets 2nd &amp; 3rd Pick, etc.)</p>
+    </div><div class="card rule ruleitem" data-section="Divisions &amp; Schedule">
+      <div class="meta">Divisions &amp; Schedule</div>
+      <h3>Schedule</h3>
+      <p>Schedule: Each team will play each other twice and the 2 teams form their division once. Over the course of 3 years you will have played Every team in the opposing conference 3 times, 1 team in your conference 7 times, Everyone else in your conference 6 times</p>
+    </div></div>
+  </section>
+</main>
+<footer><div class="shell">MOFFL Constitution • Proposed changes remain proposals until adopted under league rules.</div></footer>
+<script src="assets/hq-data.js"></script>
+<script>
+(function(){
+  const ruleFilter=document.getElementById('ruleFilter');
+  if(ruleFilter){
+    ruleFilter.addEventListener('change',()=>{
+      const v=ruleFilter.value;
+      document.querySelectorAll('.ruleitem').forEach(el=>{el.style.display=(!v||el.dataset.section===v)?'block':'none';});
+    });
+  }
+
+  const statusEl=document.getElementById('proposalFeedStatus');
+  const activeEl=document.getElementById('activeProposalList');
+  const agendaEl=document.getElementById('draftAgendaList');
+  const historyEl=document.getElementById('legislativeHistoryList');
+
+  function clear(el){ while(el.firstChild) el.removeChild(el.firstChild); }
+  function p(text, cls){ const e=document.createElement('p'); e.textContent=text; if(cls)e.className=cls; return e; }
+  function meta(text){ const e=document.createElement('div'); e.className='meta'; e.textContent=text; return e; }
+  function empty(el,text){ clear(el); const c=document.createElement('div'); c.className='card'; c.appendChild(p(text)); el.appendChild(c); }
+  function field(card,label,value){ if(value===undefined||value===null||String(value).trim()==='') return; const wrap=document.createElement('p'); const strong=document.createElement('strong'); strong.textContent=label+': '; wrap.appendChild(strong); wrap.appendChild(document.createTextNode(String(value))); card.appendChild(wrap); }
+  function proposalCard(x, history){
+    const c=document.createElement('div'); c.className='card';
+    c.appendChild(meta([x.id,x.category,x.status].filter(Boolean).join(' • ')));
+    const h=document.createElement('h3'); h.textContent=x.proposed||x.id||'Rule Proposal'; c.appendChild(h);
+    field(c,'Submitted by',x.gm); field(c,'Current rule / issue',x.current); field(c,'Rationale',x.rationale);
+    if(x.deadline) field(c,'Vote deadline',x.deadline);
+    if(x.status==='Scheduled for Vote' || history){ field(c,'Vote',`${x.votesFor||0} for / ${x.votesAgainst||0} against`); }
+    if(history && x.decision) field(c,'Decision',x.decision);
+    if(history && x.effectiveSeason) field(c,'Effective season',x.effectiveSeason);
+    return c;
+  }
+  function render(list,el,emptyText,history=false){ clear(el); if(!list.length){ empty(el,emptyText); return; } list.forEach(x=>el.appendChild(proposalCard(x,history))); }
+
+  window.MOFFLProposalFeed=function(resp){
+    try{
+      if(!resp || resp.status==='error' || !resp.table) throw new Error('feed unavailable');
+      const rows=(resp.table.rows||[]).map(row=>{
+        const c=row.c||[]; const val=i=>c[i] ? (c[i].f ?? c[i].v ?? '') : '';
+        return {id:val(0),date:val(1),gm:val(2),category:val(3),current:val(4),proposed:val(5),rationale:val(6),status:val(7),deadline:val(8),votesFor:val(9),votesAgainst:val(10),decision:val(11),effectiveSeason:val(12)};
+      }).filter(x=>x.id);
+      const open=rows.filter(x=>['Submitted','Under Review'].includes(x.status));
+      const agenda=rows.filter(x=>x.status==='Scheduled for Vote');
+      const history=rows.filter(x=>['Adopted','Rejected','Withdrawn'].includes(x.status));
+      render(open,activeEl,'No open proposals are currently under review.');
+      render(agenda,agendaEl,'No proposals are currently scheduled for a vote.');
+      render(history,historyEl,'No completed proposals have been recorded yet.',true);
+      statusEl.textContent='Live from Google Sheets';
+    }catch(e){
+      statusEl.textContent='Feed not published yet';
+      empty(activeEl,'The website feed is ready, but the Google Sheet must be published before public visitors can see live proposals.');
+    }
+  };
+
+  const cfg=((window.MOFFL_HQ||{}).ruleProposal||{});
+  if(cfg.proposalFeedGvizUrl){
+    const s=document.createElement('script'); s.src=cfg.proposalFeedGvizUrl+'&_='+Date.now();
+    s.onerror=()=>{statusEl.textContent='Feed not published yet'; empty(activeEl,'The live Google Sheet feed has not been published for public viewing yet.');};
+    document.body.appendChild(s);
+  }
+})();
+</script>
+</body>
+</html>

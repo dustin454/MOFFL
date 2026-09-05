@@ -1,0 +1,1014 @@
+[
+  {
+    "Player_ID": "P0001",
+    "Canonical_Player_Name": "A.J. Brown"
+  },
+  {
+    "Player_ID": "P0002",
+    "Canonical_Player_Name": "A.J. Green"
+  },
+  {
+    "Player_ID": "P0003",
+    "Canonical_Player_Name": "Aaron Brooks"
+  },
+  {
+    "Player_ID": "P0004",
+    "Canonical_Player_Name": "Aaron Rodgers"
+  },
+  {
+    "Player_ID": "P0005",
+    "Canonical_Player_Name": "Ahman Green"
+  },
+  {
+    "Player_ID": "P0006",
+    "Canonical_Player_Name": "Alex Smith"
+  },
+  {
+    "Player_ID": "P0007",
+    "Canonical_Player_Name": "Alexander Mattison"
+  },
+  {
+    "Player_ID": "P0008",
+    "Canonical_Player_Name": "Alfred Morris"
+  },
+  {
+    "Player_ID": "P0009",
+    "Canonical_Player_Name": "Allen Robinson"
+  },
+  {
+    "Player_ID": "P0010",
+    "Canonical_Player_Name": "Alvin Kamara"
+  },
+  {
+    "Player_ID": "P0011",
+    "Canonical_Player_Name": "Amari Cooper"
+  },
+  {
+    "Player_ID": "P0012",
+    "Canonical_Player_Name": "Amon-Ra St. Brown"
+  },
+  {
+    "Player_ID": "P0013",
+    "Canonical_Player_Name": "Amos Zereoue"
+  },
+  {
+    "Player_ID": "P0014",
+    "Canonical_Player_Name": "Andre Caldwell"
+  },
+  {
+    "Player_ID": "P0015",
+    "Canonical_Player_Name": "Andre Johnson"
+  },
+  {
+    "Player_ID": "P0016",
+    "Canonical_Player_Name": "Andre' Davis"
+  },
+  {
+    "Player_ID": "P0017",
+    "Canonical_Player_Name": "Andrew Luck"
+  },
+  {
+    "Player_ID": "P0018",
+    "Canonical_Player_Name": "Anquan Boldin"
+  },
+  {
+    "Player_ID": "P0019",
+    "Canonical_Player_Name": "Anthony Miller"
+  },
+  {
+    "Player_ID": "P0020",
+    "Canonical_Player_Name": "Anthony Thomas"
+  },
+  {
+    "Player_ID": "P0021",
+    "Canonical_Player_Name": "Arrelious Benn"
+  },
+  {
+    "Player_ID": "P0022",
+    "Canonical_Player_Name": "Austin Ekeler"
+  },
+  {
+    "Player_ID": "P0023",
+    "Canonical_Player_Name": "Ben Troupe"
+  },
+  {
+    "Player_ID": "P0024",
+    "Canonical_Player_Name": "Bo Scaife"
+  },
+  {
+    "Player_ID": "P0025",
+    "Canonical_Player_Name": "Brandin Cooks"
+  },
+  {
+    "Player_ID": "P0026",
+    "Canonical_Player_Name": "Brandon Jacobs"
+  },
+  {
+    "Player_ID": "P0027",
+    "Canonical_Player_Name": "Brandon Marshall"
+  },
+  {
+    "Player_ID": "P0028",
+    "Canonical_Player_Name": "Breshad Perriman"
+  },
+  {
+    "Player_ID": "P0029",
+    "Canonical_Player_Name": "Brian Westbrook"
+  },
+  {
+    "Player_ID": "P0030",
+    "Canonical_Player_Name": "Bryant Johnson"
+  },
+  {
+    "Player_ID": "P0031",
+    "Canonical_Player_Name": "Bryce Young"
+  },
+  {
+    "Player_ID": "P0032",
+    "Canonical_Player_Name": "Bubba Franks"
+  },
+  {
+    "Player_ID": "P0033",
+    "Canonical_Player_Name": "Calvin Ridley"
+  },
+  {
+    "Player_ID": "P0034",
+    "Canonical_Player_Name": "Cecil Shorts III"
+  },
+  {
+    "Player_ID": "P0035",
+    "Canonical_Player_Name": "CeeDee Lamb"
+  },
+  {
+    "Player_ID": "P0036",
+    "Canonical_Player_Name": "Chad Johnson"
+  },
+  {
+    "Player_ID": "P0037",
+    "Canonical_Player_Name": "Chad Pennington"
+  },
+  {
+    "Player_ID": "P0038",
+    "Canonical_Player_Name": "Chase Claypool"
+  },
+  {
+    "Player_ID": "P0039",
+    "Canonical_Player_Name": "Chase Edmonds"
+  },
+  {
+    "Player_ID": "P0040",
+    "Canonical_Player_Name": "Chester Taylor"
+  },
+  {
+    "Player_ID": "P0041",
+    "Canonical_Player_Name": "Chig Okonkwo"
+  },
+  {
+    "Player_ID": "P0042",
+    "Canonical_Player_Name": "Chris Baker"
+  },
+  {
+    "Player_ID": "P0043",
+    "Canonical_Player_Name": "Chris Chambers"
+  },
+  {
+    "Player_ID": "P0044",
+    "Canonical_Player_Name": "Chris Jennings"
+  },
+  {
+    "Player_ID": "P0045",
+    "Canonical_Player_Name": "Christian Fauria"
+  },
+  {
+    "Player_ID": "P0046",
+    "Canonical_Player_Name": "Christine Michael"
+  },
+  {
+    "Player_ID": "P0047",
+    "Canonical_Player_Name": "Clyde Edwards-Helaire"
+  },
+  {
+    "Player_ID": "P0048",
+    "Canonical_Player_Name": "Cody Latimer"
+  },
+  {
+    "Player_ID": "P0049",
+    "Canonical_Player_Name": "Cooper Kupp"
+  },
+  {
+    "Player_ID": "P0050",
+    "Canonical_Player_Name": "Corey Davis"
+  },
+  {
+    "Player_ID": "P0051",
+    "Canonical_Player_Name": "Courtland Sutton"
+  },
+  {
+    "Player_ID": "P0052",
+    "Canonical_Player_Name": "D'Ernest Johnson"
+  },
+  {
+    "Player_ID": "P0053",
+    "Canonical_Player_Name": "D'Onta Foreman"
+  },
+  {
+    "Player_ID": "P0054",
+    "Canonical_Player_Name": "Dak Prescott"
+  },
+  {
+    "Player_ID": "P0055",
+    "Canonical_Player_Name": "Dallas Clark"
+  },
+  {
+    "Player_ID": "P0056",
+    "Canonical_Player_Name": "Dalton Kincaid"
+  },
+  {
+    "Player_ID": "P0057",
+    "Canonical_Player_Name": "Dalvin Cook"
+  },
+  {
+    "Player_ID": "P0058",
+    "Canonical_Player_Name": "Darrell Jackson"
+  },
+  {
+    "Player_ID": "P0059",
+    "Canonical_Player_Name": "Darren McFadden"
+  },
+  {
+    "Player_ID": "P0060",
+    "Canonical_Player_Name": "Daunte Culpepper"
+  },
+  {
+    "Player_ID": "P0061",
+    "Canonical_Player_Name": "Davante Adams"
+  },
+  {
+    "Player_ID": "P0062",
+    "Canonical_Player_Name": "David Johnson"
+  },
+  {
+    "Player_ID": "P0063",
+    "Canonical_Player_Name": "David Montgomery"
+  },
+  {
+    "Player_ID": "P0064",
+    "Canonical_Player_Name": "Dawson Knox"
+  },
+  {
+    "Player_ID": "P0065",
+    "Canonical_Player_Name": "DeAndre Hopkins"
+  },
+  {
+    "Player_ID": "P0066",
+    "Canonical_Player_Name": "DeAndre Washington"
+  },
+  {
+    "Player_ID": "P0067",
+    "Canonical_Player_Name": "DeMarco Murray"
+  },
+  {
+    "Player_ID": "P0068",
+    "Canonical_Player_Name": "DeVante Parker"
+  },
+  {
+    "Player_ID": "P0069",
+    "Canonical_Player_Name": "Deion Branch"
+  },
+  {
+    "Player_ID": "P0070",
+    "Canonical_Player_Name": "Derrick Gore"
+  },
+  {
+    "Player_ID": "P0071",
+    "Canonical_Player_Name": "Derrick Henry"
+  },
+  {
+    "Player_ID": "P0072",
+    "Canonical_Player_Name": "Derrick Mason"
+  },
+  {
+    "Player_ID": "P0073",
+    "Canonical_Player_Name": "Desean Jackson"
+  },
+  {
+    "Player_ID": "P0074",
+    "Canonical_Player_Name": "Desmond Clark"
+  },
+  {
+    "Player_ID": "P0075",
+    "Canonical_Player_Name": "Deuce McAllister"
+  },
+  {
+    "Player_ID": "P0076",
+    "Canonical_Player_Name": "Devery Henderson"
+  },
+  {
+    "Player_ID": "P0077",
+    "Canonical_Player_Name": "Devonta Freeman"
+  },
+  {
+    "Player_ID": "P0078",
+    "Canonical_Player_Name": "Devonta Smith"
+  },
+  {
+    "Player_ID": "P0079",
+    "Canonical_Player_Name": "Donald Brown"
+  },
+  {
+    "Player_ID": "P0080",
+    "Canonical_Player_Name": "Donald Driver"
+  },
+  {
+    "Player_ID": "P0081",
+    "Canonical_Player_Name": "Donovan Mcnabb"
+  },
+  {
+    "Player_ID": "P0082",
+    "Canonical_Player_Name": "Donovan Peoples-Jones"
+  },
+  {
+    "Player_ID": "P0083",
+    "Canonical_Player_Name": "Doug Baldwin"
+  },
+  {
+    "Player_ID": "P0084",
+    "Canonical_Player_Name": "Drew Brees"
+  },
+  {
+    "Player_ID": "P0085",
+    "Canonical_Player_Name": "Dwayne Bowe"
+  },
+  {
+    "Player_ID": "P0086",
+    "Canonical_Player_Name": "Elijah Mitchell"
+  },
+  {
+    "Player_ID": "P0087",
+    "Canonical_Player_Name": "Emmanuel Sanders"
+  },
+  {
+    "Player_ID": "P0088",
+    "Canonical_Player_Name": "Emmitt Smith"
+  },
+  {
+    "Player_ID": "P0089",
+    "Canonical_Player_Name": "Eric Ebron"
+  },
+  {
+    "Player_ID": "P0090",
+    "Canonical_Player_Name": "Eric Moulds"
+  },
+  {
+    "Player_ID": "P0091",
+    "Canonical_Player_Name": "Ezekiel Elliot"
+  },
+  {
+    "Player_ID": "P0092",
+    "Canonical_Player_Name": "Frank Gore"
+  },
+  {
+    "Player_ID": "P0093",
+    "Canonical_Player_Name": "Frank Wycheck"
+  },
+  {
+    "Player_ID": "P0094",
+    "Canonical_Player_Name": "Gary Barnidge"
+  },
+  {
+    "Player_ID": "P0095",
+    "Canonical_Player_Name": "George Kittle"
+  },
+  {
+    "Player_ID": "P0096",
+    "Canonical_Player_Name": "Golden Tate"
+  },
+  {
+    "Player_ID": "P0097",
+    "Canonical_Player_Name": "Greg Jennings"
+  },
+  {
+    "Player_ID": "P0098",
+    "Canonical_Player_Name": "Greg Olsen"
+  },
+  {
+    "Player_ID": "P0099",
+    "Canonical_Player_Name": "Gus Edwards"
+  },
+  {
+    "Player_ID": "P0100",
+    "Canonical_Player_Name": "Hakeem Nicks"
+  },
+  {
+    "Player_ID": "P0101",
+    "Canonical_Player_Name": "Heath Miller"
+  },
+  {
+    "Player_ID": "P0102",
+    "Canonical_Player_Name": "Ian Thomas"
+  },
+  {
+    "Player_ID": "P0103",
+    "Canonical_Player_Name": "Ike Hilliard"
+  },
+  {
+    "Player_ID": "P0104",
+    "Canonical_Player_Name": "Irv Smith Jr."
+  },
+  {
+    "Player_ID": "P0105",
+    "Canonical_Player_Name": "Isaac Bruce"
+  },
+  {
+    "Player_ID": "P0106",
+    "Canonical_Player_Name": "Ito Smith"
+  },
+  {
+    "Player_ID": "P0107",
+    "Canonical_Player_Name": "Jahvid Best"
+  },
+  {
+    "Player_ID": "P0108",
+    "Canonical_Player_Name": "Jake Ferguson"
+  },
+  {
+    "Player_ID": "P0109",
+    "Canonical_Player_Name": "Jalen Hurts"
+  },
+  {
+    "Player_ID": "P0110",
+    "Canonical_Player_Name": "Jamaal Charles"
+  },
+  {
+    "Player_ID": "P0111",
+    "Canonical_Player_Name": "Jamaal Williams"
+  },
+  {
+    "Player_ID": "P0112",
+    "Canonical_Player_Name": "James Cook"
+  },
+  {
+    "Player_ID": "P0113",
+    "Canonical_Player_Name": "James Jones"
+  },
+  {
+    "Player_ID": "P0114",
+    "Canonical_Player_Name": "James Starks"
+  },
+  {
+    "Player_ID": "P0115",
+    "Canonical_Player_Name": "Jameson Williams"
+  },
+  {
+    "Player_ID": "P0116",
+    "Canonical_Player_Name": "Jamison Crowder"
+  },
+  {
+    "Player_ID": "P0117",
+    "Canonical_Player_Name": "Jared Goff"
+  },
+  {
+    "Player_ID": "P0118",
+    "Canonical_Player_Name": "Javon Walker"
+  },
+  {
+    "Player_ID": "P0119",
+    "Canonical_Player_Name": "Javorius Allen"
+  },
+  {
+    "Player_ID": "P0120",
+    "Canonical_Player_Name": "Jay Cutler"
+  },
+  {
+    "Player_ID": "P0121",
+    "Canonical_Player_Name": "Jayden Reed"
+  },
+  {
+    "Player_ID": "P0122",
+    "Canonical_Player_Name": "Jeff Wilson Jr."
+  },
+  {
+    "Player_ID": "P0123",
+    "Canonical_Player_Name": "Jeremy Maclin"
+  },
+  {
+    "Player_ID": "P0124",
+    "Canonical_Player_Name": "Jerick McKinnon"
+  },
+  {
+    "Player_ID": "P0125",
+    "Canonical_Player_Name": "Joe Flacco"
+  },
+  {
+    "Player_ID": "P0126",
+    "Canonical_Player_Name": "Joe Horn"
+  },
+  {
+    "Player_ID": "P0127",
+    "Canonical_Player_Name": "Joe Mixon"
+  },
+  {
+    "Player_ID": "P0128",
+    "Canonical_Player_Name": "John Brown"
+  },
+  {
+    "Player_ID": "P0129",
+    "Canonical_Player_Name": "Jon Kitna"
+  },
+  {
+    "Player_ID": "P0130",
+    "Canonical_Player_Name": "Jonathan Taylor"
+  },
+  {
+    "Player_ID": "P0131",
+    "Canonical_Player_Name": "Jordan Cameron"
+  },
+  {
+    "Player_ID": "P0132",
+    "Canonical_Player_Name": "Jordan Howard"
+  },
+  {
+    "Player_ID": "P0133",
+    "Canonical_Player_Name": "Jordan Mason"
+  },
+  {
+    "Player_ID": "P0134",
+    "Canonical_Player_Name": "Jordan Shipley"
+  },
+  {
+    "Player_ID": "P0135",
+    "Canonical_Player_Name": "Joseph Randle"
+  },
+  {
+    "Player_ID": "P0136",
+    "Canonical_Player_Name": "Josh Freeman"
+  },
+  {
+    "Player_ID": "P0137",
+    "Canonical_Player_Name": "Josh Gordon"
+  },
+  {
+    "Player_ID": "P0138",
+    "Canonical_Player_Name": "Josh Reynolds"
+  },
+  {
+    "Player_ID": "P0139",
+    "Canonical_Player_Name": "JuJu Smith-Schuster"
+  },
+  {
+    "Player_ID": "P0140",
+    "Canonical_Player_Name": "Julio Jones"
+  },
+  {
+    "Player_ID": "P0141",
+    "Canonical_Player_Name": "Julius Jones"
+  },
+  {
+    "Player_ID": "P0142",
+    "Canonical_Player_Name": "Justice Hill"
+  },
+  {
+    "Player_ID": "P0143",
+    "Canonical_Player_Name": "Justin Fields"
+  },
+  {
+    "Player_ID": "P0144",
+    "Canonical_Player_Name": "K.J. Osborn"
+  },
+  {
+    "Player_ID": "P0145",
+    "Canonical_Player_Name": "Kalen Ballage"
+  },
+  {
+    "Player_ID": "P0146",
+    "Canonical_Player_Name": "Kalif Raymond"
+  },
+  {
+    "Player_ID": "P0147",
+    "Canonical_Player_Name": "Karlos Williams"
+  },
+  {
+    "Player_ID": "P0148",
+    "Canonical_Player_Name": "Keenan Allen"
+  },
+  {
+    "Player_ID": "P0149",
+    "Canonical_Player_Name": "Kenneth Farrow"
+  },
+  {
+    "Player_ID": "P0150",
+    "Canonical_Player_Name": "Kerryon Johnson"
+  },
+  {
+    "Player_ID": "P0151",
+    "Canonical_Player_Name": "Kevan Barlow"
+  },
+  {
+    "Player_ID": "P0152",
+    "Canonical_Player_Name": "Kevin Boss"
+  },
+  {
+    "Player_ID": "P0153",
+    "Canonical_Player_Name": "Kevin Jones"
+  },
+  {
+    "Player_ID": "P0154",
+    "Canonical_Player_Name": "Kurt Warner"
+  },
+  {
+    "Player_ID": "P0155",
+    "Canonical_Player_Name": "Kyler Murray"
+  },
+  {
+    "Player_ID": "P0156",
+    "Canonical_Player_Name": "LaDainian Tomlinson"
+  },
+  {
+    "Player_ID": "P0157",
+    "Canonical_Player_Name": "Larry Fitzgerald"
+  },
+  {
+    "Player_ID": "P0158",
+    "Canonical_Player_Name": "Latavius Murray"
+  },
+  {
+    "Player_ID": "P0159",
+    "Canonical_Player_Name": "Le'Veon Bell"
+  },
+  {
+    "Player_ID": "P0160",
+    "Canonical_Player_Name": "LeGarrette Blount"
+  },
+  {
+    "Player_ID": "P0161",
+    "Canonical_Player_Name": "Leonard Fournette"
+  },
+  {
+    "Player_ID": "P0162",
+    "Canonical_Player_Name": "Marc Bulger"
+  },
+  {
+    "Player_ID": "P0163",
+    "Canonical_Player_Name": "Marcedes Lewis"
+  },
+  {
+    "Player_ID": "P0164",
+    "Canonical_Player_Name": "Marcus Mariota"
+  },
+  {
+    "Player_ID": "P0165",
+    "Canonical_Player_Name": "Mark Andrews"
+  },
+  {
+    "Player_ID": "P0166",
+    "Canonical_Player_Name": "Mark Brunell"
+  },
+  {
+    "Player_ID": "P0167",
+    "Canonical_Player_Name": "Marquise Brown"
+  },
+  {
+    "Player_ID": "P0168",
+    "Canonical_Player_Name": "Marshall Faulk"
+  },
+  {
+    "Player_ID": "P0169",
+    "Canonical_Player_Name": "Marshawn Lynch"
+  },
+  {
+    "Player_ID": "P0170",
+    "Canonical_Player_Name": "Martellus Bennett"
+  },
+  {
+    "Player_ID": "P0171",
+    "Canonical_Player_Name": "Marvin Jones Jr."
+  },
+  {
+    "Player_ID": "P0172",
+    "Canonical_Player_Name": "Matt Forte"
+  },
+  {
+    "Player_ID": "P0173",
+    "Canonical_Player_Name": "Matt Hasselbeck"
+  },
+  {
+    "Player_ID": "P0174",
+    "Canonical_Player_Name": "Matt Ryan"
+  },
+  {
+    "Player_ID": "P0175",
+    "Canonical_Player_Name": "Maurice Hicks"
+  },
+  {
+    "Player_ID": "P0176",
+    "Canonical_Player_Name": "Melvin Gordon III"
+  },
+  {
+    "Player_ID": "P0177",
+    "Canonical_Player_Name": "Michael Carter"
+  },
+  {
+    "Player_ID": "P0178",
+    "Canonical_Player_Name": "Michael Crabtree"
+  },
+  {
+    "Player_ID": "P0179",
+    "Canonical_Player_Name": "Michael Jenkins"
+  },
+  {
+    "Player_ID": "P0180",
+    "Canonical_Player_Name": "Mike Evans"
+  },
+  {
+    "Player_ID": "P0181",
+    "Canonical_Player_Name": "Mike Vick"
+  },
+  {
+    "Player_ID": "P0182",
+    "Canonical_Player_Name": "Mike Wallace"
+  },
+  {
+    "Player_ID": "P0183",
+    "Canonical_Player_Name": "Miles Sanders"
+  },
+  {
+    "Player_ID": "P0184",
+    "Canonical_Player_Name": "Nate Burleson"
+  },
+  {
+    "Player_ID": "P0185",
+    "Canonical_Player_Name": "Neil Rackers"
+  },
+  {
+    "Player_ID": "P0186",
+    "Canonical_Player_Name": "Nelson Agholor"
+  },
+  {
+    "Player_ID": "P0187",
+    "Canonical_Player_Name": "Nick Foles"
+  },
+  {
+    "Player_ID": "P0188",
+    "Canonical_Player_Name": "O.J. Howard"
+  },
+  {
+    "Player_ID": "P0189",
+    "Canonical_Player_Name": "Parris Campbell"
+  },
+  {
+    "Player_ID": "P0190",
+    "Canonical_Player_Name": "Patrick Mahomes"
+  },
+  {
+    "Player_ID": "P0191",
+    "Canonical_Player_Name": "Paul Richardson"
+  },
+  {
+    "Player_ID": "P0192",
+    "Canonical_Player_Name": "Percy Harvin"
+  },
+  {
+    "Player_ID": "P0193",
+    "Canonical_Player_Name": "Peyton Manning"
+  },
+  {
+    "Player_ID": "P0194",
+    "Canonical_Player_Name": "Philip Rivers"
+  },
+  {
+    "Player_ID": "P0195",
+    "Canonical_Player_Name": "Pierre Garcon"
+  },
+  {
+    "Player_ID": "P0196",
+    "Canonical_Player_Name": "Pierre Thomas"
+  },
+  {
+    "Player_ID": "P0197",
+    "Canonical_Player_Name": "Priest Holmes"
+  },
+  {
+    "Player_ID": "P0198",
+    "Canonical_Player_Name": "Puka Nacua"
+  },
+  {
+    "Player_ID": "P0199",
+    "Canonical_Player_Name": "Randall Cobb"
+  },
+  {
+    "Player_ID": "P0200",
+    "Canonical_Player_Name": "Randy McMichael"
+  },
+  {
+    "Player_ID": "P0201",
+    "Canonical_Player_Name": "Randy Moss"
+  },
+  {
+    "Player_ID": "P0202",
+    "Canonical_Player_Name": "Rashad Jennings"
+  },
+  {
+    "Player_ID": "P0203",
+    "Canonical_Player_Name": "Rashard Higgins"
+  },
+  {
+    "Player_ID": "P0204",
+    "Canonical_Player_Name": "Rashard Mendenhall"
+  },
+  {
+    "Player_ID": "P0205",
+    "Canonical_Player_Name": "Reche Caldwell"
+  },
+  {
+    "Player_ID": "P0206",
+    "Canonical_Player_Name": "Reggie Brown"
+  },
+  {
+    "Player_ID": "P0207",
+    "Canonical_Player_Name": "Rhamondre Stevenson"
+  },
+  {
+    "Player_ID": "P0208",
+    "Canonical_Player_Name": "Rico Dowdle"
+  },
+  {
+    "Player_ID": "P0209",
+    "Canonical_Player_Name": "Rob Gronkowski"
+  },
+  {
+    "Player_ID": "P0210",
+    "Canonical_Player_Name": "Roy Williams"
+  },
+  {
+    "Player_ID": "P0211",
+    "Canonical_Player_Name": "Rueben Randle"
+  },
+  {
+    "Player_ID": "P0212",
+    "Canonical_Player_Name": "Russell Wilson"
+  },
+  {
+    "Player_ID": "P0213",
+    "Canonical_Player_Name": "Ryan Grant"
+  },
+  {
+    "Player_ID": "P0214",
+    "Canonical_Player_Name": "Ryan Matthews"
+  },
+  {
+    "Player_ID": "P0215",
+    "Canonical_Player_Name": "Ryan Tannehill"
+  },
+  {
+    "Player_ID": "P0216",
+    "Canonical_Player_Name": "Sam Howell"
+  },
+  {
+    "Player_ID": "P0217",
+    "Canonical_Player_Name": "Samkon Gado"
+  },
+  {
+    "Player_ID": "P0218",
+    "Canonical_Player_Name": "Sammy Morris"
+  },
+  {
+    "Player_ID": "P0219",
+    "Canonical_Player_Name": "Sammy Watkins"
+  },
+  {
+    "Player_ID": "P0220",
+    "Canonical_Player_Name": "Santana Moss"
+  },
+  {
+    "Player_ID": "P0221",
+    "Canonical_Player_Name": "Santonio Holmes"
+  },
+  {
+    "Player_ID": "P0222",
+    "Canonical_Player_Name": "Saquon Barkley"
+  },
+  {
+    "Player_ID": "P0223",
+    "Canonical_Player_Name": "Shaun Alexander"
+  },
+  {
+    "Player_ID": "P0224",
+    "Canonical_Player_Name": "Spencer Ware"
+  },
+  {
+    "Player_ID": "P0225",
+    "Canonical_Player_Name": "Stefon Diggs"
+  },
+  {
+    "Player_ID": "P0226",
+    "Canonical_Player_Name": "Steve Smith"
+  },
+  {
+    "Player_ID": "P0227",
+    "Canonical_Player_Name": "Steve Smith Sr."
+  },
+  {
+    "Player_ID": "P0228",
+    "Canonical_Player_Name": "Tank Bigsby"
+  },
+  {
+    "Player_ID": "P0229",
+    "Canonical_Player_Name": "Tatum Bell"
+  },
+  {
+    "Player_ID": "P0230",
+    "Canonical_Player_Name": "Terrell Owens"
+  },
+  {
+    "Player_ID": "P0231",
+    "Canonical_Player_Name": "Terrelle Pryor Sr"
+  },
+  {
+    "Player_ID": "P0232",
+    "Canonical_Player_Name": "Tevin Coleman"
+  },
+  {
+    "Player_ID": "P0233",
+    "Canonical_Player_Name": "Thomas Jones"
+  },
+  {
+    "Player_ID": "P0234",
+    "Canonical_Player_Name": "Tim Hightower"
+  },
+  {
+    "Player_ID": "P0235",
+    "Canonical_Player_Name": "Todd Gurley"
+  },
+  {
+    "Player_ID": "P0236",
+    "Canonical_Player_Name": "Tom Brady"
+  },
+  {
+    "Player_ID": "P0237",
+    "Canonical_Player_Name": "Tony Pollard"
+  },
+  {
+    "Player_ID": "P0238",
+    "Canonical_Player_Name": "Tony Scheffler"
+  },
+  {
+    "Player_ID": "P0239",
+    "Canonical_Player_Name": "Torry Holt"
+  },
+  {
+    "Player_ID": "P0240",
+    "Canonical_Player_Name": "Travis Kelce"
+  },
+  {
+    "Player_ID": "P0241",
+    "Canonical_Player_Name": "Travis Taylor"
+  },
+  {
+    "Player_ID": "P0242",
+    "Canonical_Player_Name": "Tre Mason"
+  },
+  {
+    "Player_ID": "P0243",
+    "Canonical_Player_Name": "Trey Burton"
+  },
+  {
+    "Player_ID": "P0244",
+    "Canonical_Player_Name": "Trey McBride"
+  },
+  {
+    "Player_ID": "P0245",
+    "Canonical_Player_Name": "Tua Tagovailoa"
+  },
+  {
+    "Player_ID": "P0246",
+    "Canonical_Player_Name": "Tyler Boyd"
+  },
+  {
+    "Player_ID": "P0247",
+    "Canonical_Player_Name": "Tyron Johnson"
+  },
+  {
+    "Player_ID": "P0248",
+    "Canonical_Player_Name": "Vance McDonald"
+  },
+  {
+    "Player_ID": "P0249",
+    "Canonical_Player_Name": "Visanthe Shiancoe"
+  },
+  {
+    "Player_ID": "P0250",
+    "Canonical_Player_Name": "Willie Parker"
+  },
+  {
+    "Player_ID": "P0251",
+    "Canonical_Player_Name": "Willis McGahee"
+  },
+  {
+    "Player_ID": "P0252",
+    "Canonical_Player_Name": "Zach Ertz"
+  },
+  {
+    "Player_ID": "P0253",
+    "Canonical_Player_Name": "Zay Jones"
+  }
+]

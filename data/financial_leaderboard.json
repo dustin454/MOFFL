@@ -1,0 +1,132 @@
+[
+  {
+    "GM_ID": "GM001",
+    "GM_Name": "Frank Martino",
+    "Total_Paid_In": 1085,
+    "Total_Winnings": 2895,
+    "Net_Profit_Loss": 1810,
+    "ROI": 1.6682027649769586,
+    "ROI_Rank": 1,
+    "Coverage": "2016–2025"
+  },
+  {
+    "GM_ID": "GM009",
+    "GM_Name": "Michael Basciano",
+    "Total_Paid_In": 865,
+    "Total_Winnings": 1050,
+    "Net_Profit_Loss": 185,
+    "ROI": 0.2138728323699422,
+    "ROI_Rank": 2,
+    "Coverage": "2016–2025"
+  },
+  {
+    "GM_ID": "GM007",
+    "GM_Name": "Matt Fuller",
+    "Total_Paid_In": 1085,
+    "Total_Winnings": 1180,
+    "Net_Profit_Loss": 95,
+    "ROI": 0.08755760368663594,
+    "ROI_Rank": 3,
+    "Coverage": "2016–2025"
+  },
+  {
+    "GM_ID": "GM006",
+    "GM_Name": "Dustin Corkery",
+    "Total_Paid_In": 1085,
+    "Total_Winnings": 955,
+    "Net_Profit_Loss": -130,
+    "ROI": -0.11981566820276497,
+    "ROI_Rank": 4,
+    "Coverage": "2016–2025"
+  },
+  {
+    "GM_ID": "GM008",
+    "GM_Name": "Dan Gutman",
+    "Total_Paid_In": 1085,
+    "Total_Winnings": 910,
+    "Net_Profit_Loss": -175,
+    "ROI": -0.16129032258064516,
+    "ROI_Rank": 5,
+    "Coverage": "2016–2025"
+  },
+  {
+    "GM_ID": "GM010",
+    "GM_Name": "Steve Nevola",
+    "Total_Paid_In": 985,
+    "Total_Winnings": 800,
+    "Net_Profit_Loss": -185,
+    "ROI": -0.18781725888324874,
+    "ROI_Rank": 6,
+    "Coverage": "2016–2025"
+  },
+  {
+    "GM_ID": "GM011",
+    "GM_Name": "Chris Polizois",
+    "Total_Paid_In": 990,
+    "Total_Winnings": 780,
+    "Net_Profit_Loss": -210,
+    "ROI": -0.21212121212121213,
+    "ROI_Rank": 7,
+    "Coverage": "2016–2025"
+  },
+  {
+    "GM_ID": "GM003",
+    "GM_Name": "Andrew Casse",
+    "Total_Paid_In": 1085,
+    "Total_Winnings": 840,
+    "Net_Profit_Loss": -245,
+    "ROI": -0.22580645161290322,
+    "ROI_Rank": 8,
+    "Coverage": "2016–2025"
+  },
+  {
+    "GM_ID": "GM004",
+    "GM_Name": "Sean Fetterman",
+    "Total_Paid_In": 1085,
+    "Total_Winnings": 835,
+    "Net_Profit_Loss": -250,
+    "ROI": -0.2304147465437788,
+    "ROI_Rank": 9,
+    "Coverage": "2016–2025"
+  },
+  {
+    "GM_ID": "GM002",
+    "GM_Name": "Sam Debonis",
+    "Total_Paid_In": 1085,
+    "Total_Winnings": 785,
+    "Net_Profit_Loss": -300,
+    "ROI": -0.2764976958525346,
+    "ROI_Rank": 10,
+    "Coverage": "2016–2025"
+  },
+  {
+    "GM_ID": "GM013",
+    "GM_Name": "Chris Basciano",
+    "Total_Paid_In": 220,
+    "Total_Winnings": 145,
+    "Net_Profit_Loss": -75,
+    "ROI": -0.3409090909090909,
+    "ROI_Rank": 11,
+    "Coverage": "2016–2025"
+  },
+  {
+    "GM_ID": "GM012",
+    "GM_Name": "Pat Dowling",
+    "Total_Paid_In": 1120,
+    "Total_Winnings": 665,
+    "Net_Profit_Loss": -455,
+    "ROI": -0.40625,
+    "ROI_Rank": 12,
+    "Coverage": "2016–2025"
+  },
+  {
+    "GM_ID": "GM005",
+    "GM_Name": "Dave Lyons",
+    "Total_Paid_In": 1085,
+    "Total_Winnings": 435,
+    "Net_Profit_Loss": -650,
+    "ROI": -0.5990783410138248,
+    "ROI_Rank": 13,
+    "Coverage": "2016–2025"
+  }
+]

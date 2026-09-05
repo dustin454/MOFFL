@@ -1,0 +1,90 @@
+[
+  {
+    "Progression_ID": "RPROG001",
+    "Record_ID": "REC001",
+    "Category": "Regular Season Total Points",
+    "Record_Value": 1662.94,
+    "GM_ID": "GM002",
+    "GM_Name": "Sam Debonis",
+    "Season": 2017,
+    "Event": "Record Set",
+    "Source_Sheet": "Records"
+  },
+  {
+    "Progression_ID": "RPROG002",
+    "Record_ID": "REC001",
+    "Category": "Regular Season Total Points",
+    "Record_Value": 1857.4,
+    "GM_ID": "GM001",
+    "GM_Name": "Frank Martino",
+    "Season": 2018,
+    "Event": "Record Broken",
+    "Source_Sheet": "Records"
+  },
+  {
+    "Progression_ID": "RPROG003",
+    "Record_ID": "REC001",
+    "Category": "Regular Season Total Points",
+    "Record_Value": 1866.4,
+    "GM_ID": "GM006",
+    "GM_Name": "Dustin Corkery",
+    "Season": 2019,
+    "Event": "Record Broken",
+    "Source_Sheet": "Records"
+  },
+  {
+    "Progression_ID": "RPROG004",
+    "Record_ID": "REC002",
+    "Category": "Single Game Points",
+    "Record_Value": 179.6,
+    "GM_ID": "GM010",
+    "GM_Name": "Steve Nevola",
+    "Season": 2017,
+    "Event": "Record Set",
+    "Source_Sheet": "Records"
+  },
+  {
+    "Progression_ID": "RPROG005",
+    "Record_ID": "REC002",
+    "Category": "Single Game Points",
+    "Record_Value": 191.77,
+    "GM_ID": "GM009",
+    "GM_Name": "Michael Basciano",
+    "Season": 2018,
+    "Event": "Record Broken",
+    "Source_Sheet": "Records"
+  },
+  {
+    "Progression_ID": "RPROG006",
+    "Record_ID": "REC002",
+    "Category": "Single Game Points",
+    "Record_Value": 192.17,
+    "GM_ID": "GM005",
+    "GM_Name": "Dave Lyons",
+    "Season": 2020,
+    "Event": "Record Broken",
+    "Source_Sheet": "Records"
+  },
+  {
+    "Progression_ID": "RPROG007",
+    "Record_ID": "REC002",
+    "Category": "Single Game Points",
+    "Record_Value": 202,
+    "GM_ID": "GM006",
+    "GM_Name": "Dustin Corkery",
+    "Season": 2021,
+    "Event": "Record Broken",
+    "Source_Sheet": "Records"
+  },
+  {
+    "Progression_ID": "RPROG008",
+    "Record_ID": "REC002",
+    "Category": "Single Game Points",
+    "Record_Value": 214.4,
+    "GM_ID": "GM009",
+    "GM_Name": "Michael Basciano",
+    "Season": 2022,
+    "Event": "Record Broken",
+    "Source_Sheet": "Records"
+  }
+]
