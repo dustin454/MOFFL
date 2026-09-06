@@ -1,98 +1,14 @@
 [
-  {
-    "Season": 2025,
-    "Final_Finish": 1,
-    "Team_Name": "If you feel it Chase it",
-    "GM_Name": "Matt Fuller",
-    "GM_ID": "GM007",
-    "Source_Sheet": "2025 Payouts"
-  },
-  {
-    "Season": 2025,
-    "Final_Finish": 2,
-    "Team_Name": "Roll Tide",
-    "GM_Name": "Frank Martino",
-    "GM_ID": "GM001",
-    "Source_Sheet": "2025 Payouts"
-  },
-  {
-    "Season": 2025,
-    "Final_Finish": 3,
-    "Team_Name": "Unsolicited Nix Pics",
-    "GM_Name": "Sam Debonis",
-    "GM_ID": "GM002",
-    "Source_Sheet": "2025 Payouts"
-  },
-  {
-    "Season": 2025,
-    "Final_Finish": 4,
-    "Team_Name": "TE Headed Dragon",
-    "GM_Name": "Chris Polizois",
-    "GM_ID": "GM011",
-    "Source_Sheet": "2025 Payouts"
-  },
-  {
-    "Season": 2025,
-    "Final_Finish": 5,
-    "Team_Name": "Mike and Vikes",
-    "GM_Name": "Chris Basciano",
-    "GM_ID": "GM013",
-    "Source_Sheet": "2025 Payouts"
-  },
-  {
-    "Season": 2025,
-    "Final_Finish": 6,
-    "Team_Name": "Two Chefs Deli",
-    "GM_Name": "Dustin Corkery",
-    "GM_ID": "GM006",
-    "Source_Sheet": "2025 Payouts"
-  },
-  {
-    "Season": 2025,
-    "Final_Finish": 7,
-    "Team_Name": "Leroyyyyy Judkins",
-    "GM_Name": "Sean Fetterman",
-    "GM_ID": "GM004",
-    "Source_Sheet": "2025 Payouts"
-  },
-  {
-    "Season": 2025,
-    "Final_Finish": 8,
-    "Team_Name": "Budd Lake Bagels",
-    "GM_Name": "Dave Lyons",
-    "GM_ID": "GM005",
-    "Source_Sheet": "2025 Payouts"
-  },
-  {
-    "Season": 2025,
-    "Final_Finish": 9,
-    "Team_Name": "Baskin Dobbins",
-    "GM_Name": "Steve Nevola",
-    "GM_ID": "GM010",
-    "Source_Sheet": "2025 Payouts"
-  },
-  {
-    "Season": 2025,
-    "Final_Finish": 10,
-    "Team_Name": "Me & Mahomies",
-    "GM_Name": "Dan Gutman",
-    "GM_ID": "GM008",
-    "Source_Sheet": "2025 Payouts"
-  },
-  {
-    "Season": 2025,
-    "Final_Finish": 11,
-    "Team_Name": "Smelly Socks",
-    "GM_Name": "Andrew Casse",
-    "GM_ID": "GM003",
-    "Source_Sheet": "2025 Payouts"
-  },
-  {
-    "Season": 2025,
-    "Final_Finish": 12,
-    "Team_Name": "Turf Toe",
-    "GM_Name": "Pat Dowling",
-    "GM_ID": "GM012",
-    "Source_Sheet": "2025 Payouts"
-  }
+  {"Season":2025,"Final_Finish":1,"Team_Name":"If you feel it Chase it","GM_Name":"Matt Fuller","GM_ID":"GM007","Wins":10,"Losses":4,"Ties":0,"Win_Pct":0.7143,"Points_For":1682.61,"Points_Against":1475.96,"Streak":"L-2","Source_Sheet":"2025 MOFFL FINAL RECORDS_RANKS"},
+  {"Season":2025,"Final_Finish":2,"Team_Name":"Roll Tide","GM_Name":"Frank Martino","GM_ID":"GM001","Wins":10,"Losses":4,"Ties":0,"Win_Pct":0.7143,"Points_For":1809.30,"Points_Against":1460.93,"Streak":"W-2","Source_Sheet":"2025 MOFFL FINAL RECORDS_RANKS"},
+  {"Season":2025,"Final_Finish":3,"Team_Name":"Unsolicited Nix Pics","GM_Name":"Sam Debonis","GM_ID":"GM002","Wins":7,"Losses":7,"Ties":0,"Win_Pct":0.5000,"Points_For":1646.58,"Points_Against":1529.07,"Streak":"W-1","Source_Sheet":"2025 MOFFL FINAL RECORDS_RANKS"},
+  {"Season":2025,"Final_Finish":4,"Team_Name":"TE Headed Dragon","GM_Name":"Chris Polizois","GM_ID":"GM011","Wins":8,"Losses":6,"Ties":0,"Win_Pct":0.5714,"Points_For":1475.61,"Points_Against":1485.44,"Streak":"W-1","Source_Sheet":"2025 MOFFL FINAL RECORDS_RANKS"},
+  {"Season":2025,"Final_Finish":5,"Team_Name":"Mike and Vikes","GM_Name":"Chris Basciano","GM_ID":"GM013","Wins":9,"Losses":5,"Ties":0,"Win_Pct":0.6429,"Points_For":1614.38,"Points_Against":1564.52,"Streak":"W-2","Source_Sheet":"2025 MOFFL FINAL RECORDS_RANKS"},
+  {"Season":2025,"Final_Finish":6,"Team_Name":"Two Chefs Deli","GM_Name":"Dustin Corkery","GM_ID":"GM006","Wins":7,"Losses":7,"Ties":0,"Win_Pct":0.5000,"Points_For":1539.76,"Points_Against":1516.85,"Streak":"W-1","Source_Sheet":"2025 MOFFL FINAL RECORDS_RANKS"},
+  {"Season":2025,"Final_Finish":7,"Team_Name":"Leroyyyyy Judkins","GM_Name":"Sean Fetterman","GM_ID":"GM004","Wins":8,"Losses":6,"Ties":0,"Win_Pct":0.5714,"Points_For":1501.13,"Points_Against":1455.57,"Streak":"W-1","Source_Sheet":"2025 MOFFL FINAL RECORDS_RANKS"},
+  {"Season":2025,"Final_Finish":8,"Team_Name":"Budd Lake Bagels","GM_Name":"Dave Lyons","GM_ID":"GM005","Wins":7,"Losses":7,"Ties":0,"Win_Pct":0.5000,"Points_For":1427.37,"Points_Against":1470.24,"Streak":"L-1","Source_Sheet":"2025 MOFFL FINAL RECORDS_RANKS"},
+  {"Season":2025,"Final_Finish":9,"Team_Name":"Baskin Dobbins","GM_Name":"Steve Nevola","GM_ID":"GM010","Wins":5,"Losses":9,"Ties":0,"Win_Pct":0.3571,"Points_For":1277.63,"Points_Against":1591.19,"Streak":"L-1","Source_Sheet":"2025 MOFFL FINAL RECORDS_RANKS"},
+  {"Season":2025,"Final_Finish":10,"Team_Name":"Me & Mahomies","GM_Name":"Dan Gutman","GM_ID":"GM008","Wins":5,"Losses":9,"Ties":0,"Win_Pct":0.3571,"Points_For":1394.66,"Points_Against":1502.43,"Streak":"L-1","Source_Sheet":"2025 MOFFL FINAL RECORDS_RANKS"},
+  {"Season":2025,"Final_Finish":11,"Team_Name":"Smelly Socks","GM_Name":"Andrew Casse","GM_ID":"GM003","Wins":4,"Losses":10,"Ties":0,"Win_Pct":0.2857,"Points_For":1499.96,"Points_Against":1641.16,"Streak":"L-1","Source_Sheet":"2025 MOFFL FINAL RECORDS_RANKS"},
+  {"Season":2025,"Final_Finish":12,"Team_Name":"Turf Toe","GM_Name":"Pat Dowling","GM_ID":"GM012","Wins":4,"Losses":10,"Ties":0,"Win_Pct":0.2857,"Points_For":1326.11,"Points_Against":1501.74,"Streak":"L-2","Source_Sheet":"2025 MOFFL FINAL RECORDS_RANKS"}
 ]
