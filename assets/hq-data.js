@@ -10,12 +10,12 @@ window.MOFFL_HQ = {
       "id": "DATE001",
       "type": "Draft",
       "title": "2027 MOFFL Draft",
-      "date": "2027-08-28",
+      "date": "August 28, 2027",
       "time": "",
       "location": "",
       "status": "Confirmed",
       "priority": "High",
-      "note": "2027 MOFFL Draft date confirmed for August 28, 2027."
+      "note": "2027 MOFFL Draft date confirmed."
     },
     {
       "id": "DATE002",
@@ -26,13 +26,13 @@ window.MOFFL_HQ = {
       "location": "",
       "status": "TBD",
       "priority": "High",
-      "note": "Exact deadline will be set after the draft date is confirmed."
+      "note": "Keeper deadline remains TBD."
     },
     {
       "id": "DATE003",
       "type": "Rule Proposal Deadline",
       "title": "2027 Rule Proposal Deadline",
-      "date": "2027-08-21",
+      "date": "August 21, 2027",
       "time": "",
       "location": "",
       "status": "Confirmed",
@@ -64,53 +64,17 @@ window.MOFFL_HQ = {
     "proposalFeedGvizUrl": "https://docs.google.com/spreadsheets/d/10RQXQUv4e1BTSzx_Gfj57U9cPlPphyv16lFJj9C9JVc/gviz/tq?tqx=responseHandler:MOFFLProposalFeed&sheet=Website%20Feed"
   },
   "currentGMs": [
-    {
-      "GM_ID": "GM001",
-      "Name": "Frank Martino"
-    },
-    {
-      "GM_ID": "GM002",
-      "Name": "Sam Debonis"
-    },
-    {
-      "GM_ID": "GM003",
-      "Name": "Andrew Casse"
-    },
-    {
-      "GM_ID": "GM004",
-      "Name": "Sean Fetterman"
-    },
-    {
-      "GM_ID": "GM005",
-      "Name": "Dave Lyons"
-    },
-    {
-      "GM_ID": "GM006",
-      "Name": "Dustin Corkery"
-    },
-    {
-      "GM_ID": "GM007",
-      "Name": "Matt Fuller"
-    },
-    {
-      "GM_ID": "GM008",
-      "Name": "Dan Gutman"
-    },
-    {
-      "GM_ID": "GM010",
-      "Name": "Steve Nevola"
-    },
-    {
-      "GM_ID": "GM011",
-      "Name": "Chris Polizois"
-    },
-    {
-      "GM_ID": "GM012",
-      "Name": "Pat Dowling"
-    },
-    {
-      "GM_ID": "GM013",
-      "Name": "Chris Basciano"
-    }
+    {"GM_ID":"GM001","Name":"Frank Martino"},
+    {"GM_ID":"GM002","Name":"Sam Debonis"},
+    {"GM_ID":"GM003","Name":"Andrew Casse"},
+    {"GM_ID":"GM004","Name":"Sean Fetterman"},
+    {"GM_ID":"GM005","Name":"Dave Lyons"},
+    {"GM_ID":"GM006","Name":"Dustin Corkery"},
+    {"GM_ID":"GM007","Name":"Matt Fuller"},
+    {"GM_ID":"GM008","Name":"Dan Gutman"},
+    {"GM_ID":"GM010","Name":"Steve Nevola"},
+    {"GM_ID":"GM011","Name":"Chris Polizois"},
+    {"GM_ID":"GM012","Name":"Pat Dowling"},
+    {"GM_ID":"GM013","Name":"Chris Basciano"}
   ]
 };
