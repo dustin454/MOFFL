@@ -10,12 +10,12 @@ window.MOFFL_HQ = {
       "id": "DATE001",
       "type": "Draft",
       "title": "2027 MOFFL Draft",
-      "date": "",
+      "date": "2027-08-28",
       "time": "",
       "location": "",
-      "status": "TBD",
+      "status": "Confirmed",
       "priority": "High",
-      "note": "Date, time and location will appear here once finalized."
+      "note": "2027 MOFFL Draft date confirmed for August 28, 2027."
     },
     {
       "id": "DATE002",
@@ -32,12 +32,12 @@ window.MOFFL_HQ = {
       "id": "DATE003",
       "type": "Rule Proposal Deadline",
       "title": "2027 Rule Proposal Deadline",
-      "date": "",
+      "date": "2027-08-21",
       "time": "",
       "location": "",
-      "status": "TBD",
+      "status": "Confirmed",
       "priority": "High",
-      "note": "Deadline for proposals to be placed on the next draft agenda."
+      "note": "Deadline for proposals to be placed on the 2027 draft agenda."
     }
   ],
   "announcements": [
@@ -55,7 +55,7 @@ window.MOFFL_HQ = {
       "category": "League",
       "priority": "Normal",
       "status": "Active",
-      "body": "The 2027 draft date, keeper deadline, and rule-proposal deadline will be posted here once finalized."
+      "body": "The 2027 MOFFL Draft is set for August 28, 2027, with the rule-proposal deadline one week earlier on August 21, 2027. The keeper deadline remains TBD."
     }
   ],
   "ruleProposal": {
