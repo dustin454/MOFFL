@@ -1,156 +1,24 @@
 [
-  {
-    "Season_ID": "S2005",
-    "Season": 2005,
-    "Imported_Team_Count": 11,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2006",
-    "Season": 2006,
-    "Imported_Team_Count": 10,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2007",
-    "Season": 2007,
-    "Imported_Team_Count": 10,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2008",
-    "Season": 2008,
-    "Imported_Team_Count": 12,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2009",
-    "Season": 2009,
-    "Imported_Team_Count": 12,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2010",
-    "Season": 2010,
-    "Imported_Team_Count": 10,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2011",
-    "Season": 2011,
-    "Imported_Team_Count": 12,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2012",
-    "Season": 2012,
-    "Imported_Team_Count": 0,
-    "Migration_Status": "Missing / verify",
-    "Notes": "2012 is absent from Detailed League History; intentionally not inferred."
-  },
-  {
-    "Season_ID": "S2013",
-    "Season": 2013,
-    "Imported_Team_Count": 10,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2014",
-    "Season": 2014,
-    "Imported_Team_Count": 10,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2015",
-    "Season": 2015,
-    "Imported_Team_Count": 10,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2016",
-    "Season": 2016,
-    "Imported_Team_Count": 10,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2017",
-    "Season": 2017,
-    "Imported_Team_Count": 12,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2018",
-    "Season": 2018,
-    "Imported_Team_Count": 12,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2019",
-    "Season": 2019,
-    "Imported_Team_Count": 12,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2020",
-    "Season": 2020,
-    "Imported_Team_Count": 12,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2021",
-    "Season": 2021,
-    "Imported_Team_Count": 12,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2022",
-    "Season": 2022,
-    "Imported_Team_Count": 12,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2023",
-    "Season": 2023,
-    "Imported_Team_Count": 12,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2024",
-    "Season": 2024,
-    "Imported_Team_Count": 12,
-    "Migration_Status": "Imported",
-    "Notes": null
-  },
-  {
-    "Season_ID": "S2025",
-    "Season": 2025,
-    "Imported_Team_Count": 0,
-    "Migration_Status": "Pending current-season migration",
-    "Notes": "Not present in Detailed League History; migrate from dedicated current-era sheets."
-  },
-  {
-    "Season_ID": "S2026",
-    "Season": 2026,
-    "Imported_Team_Count": 0,
-    "Migration_Status": "Pending current-season migration",
-    "Notes": "Not present in Detailed League History; migrate from dedicated current-era sheets."
-  }
+  {"Season_ID":"S2005","Season":2005,"Imported_Team_Count":11,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2006","Season":2006,"Imported_Team_Count":10,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2007","Season":2007,"Imported_Team_Count":10,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2008","Season":2008,"Imported_Team_Count":12,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2009","Season":2009,"Imported_Team_Count":12,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2010","Season":2010,"Imported_Team_Count":10,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2011","Season":2011,"Imported_Team_Count":12,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2012","Season":2012,"Imported_Team_Count":0,"Migration_Status":"Missing / verify","Notes":"2012 is absent from Detailed League History; intentionally not inferred."},
+  {"Season_ID":"S2013","Season":2013,"Imported_Team_Count":10,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2014","Season":2014,"Imported_Team_Count":10,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2015","Season":2015,"Imported_Team_Count":10,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2016","Season":2016,"Imported_Team_Count":10,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2017","Season":2017,"Imported_Team_Count":12,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2018","Season":2018,"Imported_Team_Count":12,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2019","Season":2019,"Imported_Team_Count":12,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2020","Season":2020,"Imported_Team_Count":12,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2021","Season":2021,"Imported_Team_Count":12,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2022","Season":2022,"Imported_Team_Count":12,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2023","Season":2023,"Imported_Team_Count":12,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2024","Season":2024,"Imported_Team_Count":12,"Migration_Status":"Imported","Notes":null},
+  {"Season_ID":"S2025","Season":2025,"Imported_Team_Count":12,"Migration_Status":"Imported","Notes":"2025 regular-season records, PF/PA and final placements migrated from the dedicated 2025 source."},
+  {"Season_ID":"S2026","Season":2026,"Imported_Team_Count":0,"Migration_Status":"Pending current-season migration","Notes":"Not present in Detailed League History; migrate from dedicated current-era sheets."}
 ]
