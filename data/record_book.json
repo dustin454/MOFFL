@@ -26,14 +26,41 @@
   {
     "label": "Best Season Win %",
     "value": "92.3%",
-    "who": "Sam Debonis",
-    "detail": "2009 • 12-1-0"
+    "who": "Sam Debonis & Frank Martino",
+    "detail": "Tied record • Sam: 2009, 12-1-0 • Frank: 2012, 12-1-0 (Roll Tide)",
+    "holders": [
+      {
+        "GM_Name": "Sam Debonis",
+        "Season": 2009,
+        "Record": "12-1-0"
+      },
+      {
+        "GM_Name": "Frank Martino",
+        "Season": 2012,
+        "Record": "12-1-0",
+        "Team_Name": "Roll Tide"
+      }
+    ]
   },
   {
     "label": "Most Wins — Season",
     "value": 12,
-    "who": "Sam Debonis",
-    "detail": "2009 • Denver McBroncos"
+    "who": "Sam Debonis & Frank Martino",
+    "detail": "Tied record • Sam: 2009, Denver McBroncos • Frank: 2012, Roll Tide",
+    "holders": [
+      {
+        "GM_Name": "Sam Debonis",
+        "Season": 2009,
+        "Wins": 12,
+        "Team_Name": "Denver McBroncos"
+      },
+      {
+        "GM_Name": "Frank Martino",
+        "Season": 2012,
+        "Wins": 12,
+        "Team_Name": "Roll Tide"
+      }
+    ]
   },
   {
     "label": "Most Player Championships",
